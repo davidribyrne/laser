@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightBurnProject AppVersion="0.9.24" FormatVersion="0" MaterialHeight="0" MirrorX="True" MirrorY="True">
+    <Thumbnail Source="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"/>
+    <VariableText>
+        <Start Value="0"/>
+        <End Value="999"/>
+        <Current Value="0"/>
+        <Increment Value="1"/>
+        <AutoAdvance Value="0"/>
+    </VariableText>
+    <UIPrefs>
+        <Optimize_ByLayer Value="0"/>
+        <Optimize_ByGroup Value="-1"/>
+        <Optimize_ByPriority Value="1"/>
+        <Optimize_WhichDirection Value="0"/>
+        <Optimize_InnerToOuter Value="1"/>
+        <Optimize_ByDirection Value="0"/>
+        <Optimize_ReduceTravel Value="1"/>
+        <Optimize_HideBacklash Value="0"/>
+        <Optimize_ReduceDirChanges Value="0"/>
+        <Optimize_ChooseCorners Value="0"/>
+        <Optimize_AllowReverse Value="1"/>
+        <Optimize_RemoveOverlaps Value="0"/>
+        <Optimize_OptimalEntryPoint Value="1"/>
+    </UIPrefs>
+    <CutSetting type="Cut">
+        <index Value="2"/>
+        <name Value="C02"/>
+        <minPower Value="25"/>
+        <maxPower Value="25"/>
+        <minPower2 Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="10"/>
+        <kerf Value="0.050038"/>
+        <zOffset Value="0"/>
+        <enableLaser1 Value="1"/>
+        <enableLaser2 Value="0"/>
+        <startDelay Value="0"/>
+        <endDelay Value="0"/>
+        <throughPower Value="0"/>
+        <throughPower2 Value="0"/>
+        <enableCutThroughStart Value="0"/>
+        <enableCutThroughEnd Value="0"/>
+        <priority Value="1"/>
+        <frequency Value="20000"/>
+        <overrideFrequency Value="0"/>
+        <PPI Value="200"/>
+        <enablePPI Value="0"/>
+        <doOutput Value="1"/>
+        <hide Value="0"/>
+        <runBlower Value="1"/>
+        <autoBlower Value="0"/>
+        <blowerSpeedOverride Value="0"/>
+        <blowerSpeedPercent Value="100"/>
+        <overcut Value="0"/>
+        <rampLength Value="0"/>
+        <rampOuter Value="0"/>
+        <forceConstantPower Value="0"/>
+        <numPasses Value="1"/>
+        <zPerPass Value="0"/>
+        <perforate Value="0"/>
+        <perfLen Value="0.1"/>
+        <perfSkip Value="0.1"/>
+        <dotMode Value="0"/>
+        <dotTime Value="1"/>
+        <dotSpacing Value="0.01"/>
+        <tabsEnabled Value="0"/>
+        <manualTabs Value="1"/>
+        <tabSize Value="0.50038"/>
+        <tabCount Value="1"/>
+        <tabSpacing Value="50.038"/>
+        <skipInnerTabs Value="0"/>
+        <tabsUseSpacing Value="1"/>
+        <tabCutPower Value="0"/>
+        <scanOpt Value="mergeAll"/>
+        <bidir Value="1"/>
+        <crossHatch Value="0"/>
+        <overscan Value="0"/>
+        <overscanPercent Value="2.5"/>
+        <floodFill Value="0"/>
+        <interval Value="0.1"/>
+        <angle Value="0"/>
+        <cellsPerInch Value="50"/>
+        <halftoneAngle Value="22.5"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="3"/>
+        <name Value="C03"/>
+        <minPower Value="9"/>
+        <maxPower Value="9"/>
+        <minPower2 Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="50"/>
+        <kerf Value="0"/>
+        <zOffset Value="0"/>
+        <enableLaser1 Value="1"/>
+        <enableLaser2 Value="0"/>
+        <startDelay Value="0"/>
+        <endDelay Value="0"/>
+        <throughPower Value="0"/>
+        <throughPower2 Value="0"/>
+        <enableCutThroughStart Value="0"/>
+        <enableCutThroughEnd Value="0"/>
+        <priority Value="0"/>
+        <frequency Value="20000"/>
+        <overrideFrequency Value="0"/>
+        <PPI Value="200"/>
+        <enablePPI Value="0"/>
+        <doOutput Value="1"/>
+        <hide Value="0"/>
+        <runBlower Value="1"/>
+        <autoBlower Value="0"/>
+        <blowerSpeedOverride Value="0"/>
+        <blowerSpeedPercent Value="100"/>
+        <overcut Value="0"/>
+        <rampLength Value="0"/>
+        <rampOuter Value="0"/>
+        <forceConstantPower Value="0"/>
+        <numPasses Value="1"/>
+        <zPerPass Value="0"/>
+        <perforate Value="0"/>
+        <perfLen Value="0.1"/>
+        <perfSkip Value="0.1"/>
+        <dotMode Value="0"/>
+        <dotTime Value="1"/>
+        <dotSpacing Value="0.01"/>
+        <tabsEnabled Value="0"/>
+        <manualTabs Value="1"/>
+        <tabSize Value="0.5"/>
+        <tabCount Value="1"/>
+        <tabSpacing Value="50.04"/>
+        <skipInnerTabs Value="0"/>
+        <tabsUseSpacing Value="1"/>
+        <tabCutPower Value="0"/>
+        <scanOpt Value="mergeAll"/>
+        <bidir Value="1"/>
+        <crossHatch Value="0"/>
+        <overscan Value="0"/>
+        <overscanPercent Value="2.5"/>
+        <floodFill Value="0"/>
+        <interval Value="0.1"/>
+        <angle Value="0"/>
+        <cellsPerInch Value="50"/>
+        <halftoneAngle Value="22.5"/>
+    </CutSetting>
+    <CutSetting type="Tool">
+        <index Value="31"/>
+        <name Value="T2"/>
+        <minPower Value="20"/>
+        <maxPower Value="20"/>
+        <minPower2 Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <kerf Value="0"/>
+        <zOffset Value="0"/>
+        <enableLaser1 Value="1"/>
+        <enableLaser2 Value="0"/>
+        <startDelay Value="0"/>
+        <endDelay Value="0"/>
+        <throughPower Value="0"/>
+        <throughPower2 Value="0"/>
+        <enableCutThroughStart Value="0"/>
+        <enableCutThroughEnd Value="0"/>
+        <priority Value="2"/>
+        <frequency Value="20000"/>
+        <overrideFrequency Value="0"/>
+        <PPI Value="200"/>
+        <enablePPI Value="0"/>
+        <frame Value="0"/>
+        <doOutput Value="0"/>
+        <hide Value="0"/>
+        <runBlower Value="1"/>
+        <autoBlower Value="0"/>
+        <blowerSpeedOverride Value="0"/>
+        <blowerSpeedPercent Value="100"/>
+        <overcut Value="0"/>
+        <rampLength Value="0"/>
+        <rampOuter Value="0"/>
+        <forceConstantPower Value="0"/>
+        <numPasses Value="1"/>
+        <zPerPass Value="0"/>
+        <perforate Value="0"/>
+        <perfLen Value="0.1"/>
+        <perfSkip Value="0.1"/>
+        <dotMode Value="0"/>
+        <dotTime Value="0"/>
+        <dotSpacing Value="0"/>
+        <tabsEnabled Value="0"/>
+        <manualTabs Value="1"/>
+        <tabSize Value="0.5"/>
+        <tabCount Value="-1"/>
+        <tabSpacing Value="50"/>
+        <skipInnerTabs Value="0"/>
+        <tabsUseSpacing Value="1"/>
+        <tabCutPower Value="0"/>
+        <scanOpt Value="mergeAll"/>
+        <bidir Value="1"/>
+        <crossHatch Value="0"/>
+        <overscan Value="0"/>
+        <overscanPercent Value="2.5"/>
+        <floodFill Value="0"/>
+        <interval Value="0.1"/>
+        <angle Value="0"/>
+        <cellsPerInch Value="50"/>
+        <halftoneAngle Value="22.5"/>
+    </CutSetting>
+    <Shape Type="Rect" CutIndex="31" W="10.00001" H="3.8000011" Cr="0">
+        <XForm>1 0 0 1 196.042 30.8749</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="31" W="10" H="4" Cr="0">
+        <XForm>1 0 0 1 186.133 30.7749</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="31" W="0" H="0" Cr="0">
+        <XForm>1 0 0 1 181.133 29.9672</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="31" W="10" H="4.5999994" Cr="0">
+        <XForm>1 0 0 1 176.141 30.4673</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="31" W="10" H="5.1999989" Cr="0">
+        <XForm>1 0 0 1 166.162 30.1677</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="31" W="10" H="5.6999993" Cr="0">
+        <XForm>1 0 0 1 156.162 29.9177</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="31" W="0" H="0" Cr="0">
+        <XForm>1 0 0 1 152.468 32.7677</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="31" W="0" H="0" Cr="0">
+        <XForm>1 0 0 1 152.468 32.7677</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="31" W="0" H="0" Cr="0">
+        <XForm>1 0 0 1 146.405 31.9541</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="31" W="0" H="0" Cr="0">
+        <XForm>1 0 0 1 145.606 32.56</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="31" W="10" H="6.8750005" Cr="0">
+        <XForm>1 0 0 1 146.172 29.3302</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="31" W="10" H="7.500001" Cr="0">
+        <XForm>1 0 0 1 136.172 29.0177</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="31" W="10" H="8.5" Cr="0">
+        <XForm>1 0 0 1 126.184 28.5177</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="31" W="10" H="9.5" Cr="0">
+        <XForm>1 0 0 1 116.196 28.0177</XForm>
+    </Shape>
+    <Shape Type="Group" CutIndex="0">
+        <XForm>1 0 0 1 -353.993 -280.334</XForm>
+        <Children>
+            <Shape Type="Text" CutIndex="31" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="8.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 480.091 306.411</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="31" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="1.5↓ 1/8&quot;+" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 519.978 311.311</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="31" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="7.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 489.92 307.65</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="31" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="9.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 470.353 306.297</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="31" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="BLUR" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 488.937 310.774</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="31" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="↨" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 547.41 310.248</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="31" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="5.2&#10;" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 520.044 310.084</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="31" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="↨" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 492.793 310.391</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="31" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="5.7&#10;2mm↓" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 510.168 309.755</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="31" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="6.8&#10;  3.1↓ 1/4&quot;+" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 500.192 309.174</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="31" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="3.7" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 551.542 310.789</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="31" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="4.7" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 529.931 309.403</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="31" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="1mm↓" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 529.767 311.347</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="31" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="4.0" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 540.132 310.668</XForm>
+            </Shape>
+        </Children>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="3.7" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="1">
+        <XForm>1 0 0 1 96.7437 23.1905</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="← Cut / Etch - Surface Focus" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="1">
+        <XForm>1 0 0 1 76.3269 23.0697</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="↨" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="1">
+        <XForm>1 0 0 1 93.9057 22.8194</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="7.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="1">
+        <XForm>1 0 0 1 34.6797 19.7785</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="8.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="1">
+        <XForm>1 0 0 1 24.8509 19.7893</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="9.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="1">
+        <XForm>1 0 0 1 15.1131 19.7893</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="12mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="1">
+        <XForm>1 0 0 1 5.54484 19.6785</XForm>
+    </Shape>
+    <Shape Type="Path" CutIndex="2">
+        <XForm>1 0 0 1 -61.1642 11.9108</XForm>
+        <V vx="61.554688" vy="13.59375"/>
+        <V vx="61.554688" vy="1.59375"/>
+        <V vx="71.554688" vy="1.59375"/>
+        <V vx="71.554688" vy="4.09375"/>
+        <V vx="81.554688" vy="4.09375"/>
+        <V vx="81.554688" vy="5.09375"/>
+        <V vx="91.542969" vy="5.09375"/>
+        <V vx="91.542969" vy="6.09375"/>
+        <V vx="101.53125" vy="6.09375"/>
+        <V vx="101.53125" vy="6.71875"/>
+        <V vx="111.53125" vy="6.71875"/>
+        <V vx="111.53125" vy="7.890625"/>
+        <V vx="121.51953" vy="7.890625"/>
+        <V vx="121.51953" vy="8.390625"/>
+        <V vx="131.51953" vy="8.390625"/>
+        <V vx="131.51953" vy="8.9882813"/>
+        <V vx="141.48047" vy="8.9882813"/>
+        <V vx="141.48047" vy="9.5976563"/>
+        <V vx="151.47266" vy="9.5976563"/>
+        <V vx="151.47266" vy="9.796875"/>
+        <V vx="161.38281" vy="9.796875"/>
+        <V vx="161.38281" vy="13.597656"/>
+        <V vx="141.47266" vy="13.585938"/>
+        <V vx="131.51953" vy="13.595703"/>
+        <P T="L" p0="0" p1="1"/>
+        <P T="L" p0="1" p1="2"/>
+        <P T="L" p0="2" p1="3"/>
+        <P T="L" p0="3" p1="4"/>
+        <P T="L" p0="4" p1="5"/>
+        <P T="L" p0="5" p1="6"/>
+        <P T="L" p0="6" p1="7"/>
+        <P T="L" p0="7" p1="8"/>
+        <P T="L" p0="8" p1="9"/>
+        <P T="L" p0="9" p1="10"/>
+        <P T="L" p0="10" p1="11"/>
+        <P T="L" p0="11" p1="12"/>
+        <P T="L" p0="12" p1="13"/>
+        <P T="L" p0="13" p1="14"/>
+        <P T="L" p0="14" p1="15"/>
+        <P T="L" p0="15" p1="16"/>
+        <P T="L" p0="16" p1="17"/>
+        <P T="L" p0="17" p1="18"/>
+        <P T="L" p0="18" p1="19"/>
+        <P T="L" p0="19" p1="20"/>
+        <P T="L" p0="20" p1="21"/>
+        <P T="L" p0="21" p1="22"/>
+        <P T="L" p0="22" p1="23"/>
+        <P T="L" p0="23" p1="0"/>
+    </Shape>
+    <Shape Type="Path" CutIndex="3">
+        <XForm>1 0 0 1 -462.098 -265.985</XForm>
+        <V vx="552.35309" vy="288.07693"/>
+        <V vx="552.33228" vy="291.06836"/>
+        <P T="L" p0="0" p1="1"/>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="6.8&#10;  " H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="1">
+        <XForm>1 0 0 1 45.6401 20.9248</XForm>
+    </Shape>
+    <Shape Type="Group" CutIndex="0">
+        <XForm>1 0 0 1 34.0954 11.9139</XForm>
+        <Children>
+            <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="BLUR" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="1">
+                <XForm>1 0 0 1 20.5045 11.4587</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="↨" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="1">
+                <XForm>1 0 0 1 23.9115 11.0978</XForm>
+            </Shape>
+        </Children>
+    </Shape>
+    <Shape Type="Path" CutIndex="3">
+        <XForm>1 0 0 1.577 -492.013 -433.851</XForm>
+        <V vx="552.35309" vy="288.07693"/>
+        <V vx="552.33228" vy="291.06836"/>
+        <P T="L" p0="0" p1="1"/>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="Wide weak beam - good for fills" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="1">
+        <XForm>1 0 0 1 36.4965 23.3192</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="3.7" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="2">
+        <XForm>1 0 0 1 96.7437 36.1905</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="← Cut / Etch - Surface Focus" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="2">
+        <XForm>1 0 0 1 76.3269 36.0697</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="↨" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="2">
+        <XForm>1 0 0 1 93.9057 35.8194</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="7.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="2">
+        <XForm>1 0 0 1 34.6797 32.7785</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="8.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="2">
+        <XForm>1 0 0 1 24.8509 32.7893</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="9.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="2">
+        <XForm>1 0 0 1 15.1131 32.7893</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="12mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="2">
+        <XForm>1 0 0 1 5.54484 32.6785</XForm>
+    </Shape>
+    <Shape Type="Path" CutIndex="2">
+        <XForm>1 0 0 1 -61.1642 24.9108</XForm>
+        <V vx="61.554688" vy="13.59375"/>
+        <V vx="61.554688" vy="1.59375"/>
+        <V vx="71.554688" vy="1.59375"/>
+        <V vx="71.554688" vy="4.09375"/>
+        <V vx="81.554688" vy="4.09375"/>
+        <V vx="81.554688" vy="5.09375"/>
+        <V vx="91.542969" vy="5.09375"/>
+        <V vx="91.542969" vy="6.09375"/>
+        <V vx="101.53125" vy="6.09375"/>
+        <V vx="101.53125" vy="6.71875"/>
+        <V vx="111.53125" vy="6.71875"/>
+        <V vx="111.53125" vy="7.890625"/>
+        <V vx="121.51953" vy="7.890625"/>
+        <V vx="121.51953" vy="8.390625"/>
+        <V vx="131.51953" vy="8.390625"/>
+        <V vx="131.51953" vy="8.9882813"/>
+        <V vx="141.48047" vy="8.9882813"/>
+        <V vx="141.48047" vy="9.5976563"/>
+        <V vx="151.47266" vy="9.5976563"/>
+        <V vx="151.47266" vy="9.796875"/>
+        <V vx="161.38281" vy="9.796875"/>
+        <V vx="161.38281" vy="13.597656"/>
+        <V vx="141.47266" vy="13.585938"/>
+        <V vx="131.51953" vy="13.595703"/>
+        <P T="L" p0="0" p1="1"/>
+        <P T="L" p0="1" p1="2"/>
+        <P T="L" p0="2" p1="3"/>
+        <P T="L" p0="3" p1="4"/>
+        <P T="L" p0="4" p1="5"/>
+        <P T="L" p0="5" p1="6"/>
+        <P T="L" p0="6" p1="7"/>
+        <P T="L" p0="7" p1="8"/>
+        <P T="L" p0="8" p1="9"/>
+        <P T="L" p0="9" p1="10"/>
+        <P T="L" p0="10" p1="11"/>
+        <P T="L" p0="11" p1="12"/>
+        <P T="L" p0="12" p1="13"/>
+        <P T="L" p0="13" p1="14"/>
+        <P T="L" p0="14" p1="15"/>
+        <P T="L" p0="15" p1="16"/>
+        <P T="L" p0="16" p1="17"/>
+        <P T="L" p0="17" p1="18"/>
+        <P T="L" p0="18" p1="19"/>
+        <P T="L" p0="19" p1="20"/>
+        <P T="L" p0="20" p1="21"/>
+        <P T="L" p0="21" p1="22"/>
+        <P T="L" p0="22" p1="23"/>
+        <P T="L" p0="23" p1="0"/>
+    </Shape>
+    <Shape Type="Path" CutIndex="3">
+        <XForm>1 0 0 1 -462.098 -252.985</XForm>
+        <V vx="552.35309" vy="288.07693"/>
+        <V vx="552.33228" vy="291.06836"/>
+        <P T="L" p0="0" p1="1"/>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="6.8&#10;  " H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="2">
+        <XForm>1 0 0 1 45.6401 33.9248</XForm>
+    </Shape>
+    <Shape Type="Group" CutIndex="0">
+        <XForm>1 0 0 1 34.0954 24.9139</XForm>
+        <Children>
+            <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="BLUR" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="2">
+                <XForm>1 0 0 1 20.5045 11.4587</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="↨" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="2">
+                <XForm>1 0 0 1 23.9115 11.0978</XForm>
+            </Shape>
+        </Children>
+    </Shape>
+    <Shape Type="Path" CutIndex="3">
+        <XForm>1 0 0 1.577 -492.013 -420.851</XForm>
+        <V vx="552.35309" vy="288.07693"/>
+        <V vx="552.33228" vy="291.06836"/>
+        <P T="L" p0="0" p1="1"/>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="Wide weak beam - good for fills" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="2">
+        <XForm>1 0 0 1 36.4965 36.3192</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="3.7" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="3">
+        <XForm>1 0 0 1 96.7437 49.1905</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="← Cut / Etch - Surface Focus" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="3">
+        <XForm>1 0 0 1 76.3269 49.0697</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="↨" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="3">
+        <XForm>1 0 0 1 93.9057 48.8194</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="7.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="3">
+        <XForm>1 0 0 1 34.6797 45.7785</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="8.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="3">
+        <XForm>1 0 0 1 24.8509 45.7893</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="9.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="3">
+        <XForm>1 0 0 1 15.1131 45.7893</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="12mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="3">
+        <XForm>1 0 0 1 5.54484 45.6785</XForm>
+    </Shape>
+    <Shape Type="Path" CutIndex="2">
+        <XForm>1 0 0 1 -61.1642 37.9108</XForm>
+        <V vx="61.554688" vy="13.59375"/>
+        <V vx="61.554688" vy="1.59375"/>
+        <V vx="71.554688" vy="1.59375"/>
+        <V vx="71.554688" vy="4.09375"/>
+        <V vx="81.554688" vy="4.09375"/>
+        <V vx="81.554688" vy="5.09375"/>
+        <V vx="91.542969" vy="5.09375"/>
+        <V vx="91.542969" vy="6.09375"/>
+        <V vx="101.53125" vy="6.09375"/>
+        <V vx="101.53125" vy="6.71875"/>
+        <V vx="111.53125" vy="6.71875"/>
+        <V vx="111.53125" vy="7.890625"/>
+        <V vx="121.51953" vy="7.890625"/>
+        <V vx="121.51953" vy="8.390625"/>
+        <V vx="131.51953" vy="8.390625"/>
+        <V vx="131.51953" vy="8.9882813"/>
+        <V vx="141.48047" vy="8.9882813"/>
+        <V vx="141.48047" vy="9.5976563"/>
+        <V vx="151.47266" vy="9.5976563"/>
+        <V vx="151.47266" vy="9.796875"/>
+        <V vx="161.38281" vy="9.796875"/>
+        <V vx="161.38281" vy="13.597656"/>
+        <V vx="141.47266" vy="13.585938"/>
+        <V vx="131.51953" vy="13.595703"/>
+        <P T="L" p0="0" p1="1"/>
+        <P T="L" p0="1" p1="2"/>
+        <P T="L" p0="2" p1="3"/>
+        <P T="L" p0="3" p1="4"/>
+        <P T="L" p0="4" p1="5"/>
+        <P T="L" p0="5" p1="6"/>
+        <P T="L" p0="6" p1="7"/>
+        <P T="L" p0="7" p1="8"/>
+        <P T="L" p0="8" p1="9"/>
+        <P T="L" p0="9" p1="10"/>
+        <P T="L" p0="10" p1="11"/>
+        <P T="L" p0="11" p1="12"/>
+        <P T="L" p0="12" p1="13"/>
+        <P T="L" p0="13" p1="14"/>
+        <P T="L" p0="14" p1="15"/>
+        <P T="L" p0="15" p1="16"/>
+        <P T="L" p0="16" p1="17"/>
+        <P T="L" p0="17" p1="18"/>
+        <P T="L" p0="18" p1="19"/>
+        <P T="L" p0="19" p1="20"/>
+        <P T="L" p0="20" p1="21"/>
+        <P T="L" p0="21" p1="22"/>
+        <P T="L" p0="22" p1="23"/>
+        <P T="L" p0="23" p1="0"/>
+    </Shape>
+    <Shape Type="Path" CutIndex="3">
+        <XForm>1 0 0 1 -462.098 -239.985</XForm>
+        <V vx="552.35309" vy="288.07693"/>
+        <V vx="552.33228" vy="291.06836"/>
+        <P T="L" p0="0" p1="1"/>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="6.8&#10;  " H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="3">
+        <XForm>1 0 0 1 45.6401 46.9248</XForm>
+    </Shape>
+    <Shape Type="Group" CutIndex="0">
+        <XForm>1 0 0 1 34.0954 37.9139</XForm>
+        <Children>
+            <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="BLUR" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="3">
+                <XForm>1 0 0 1 20.5045 11.4587</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="↨" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="3">
+                <XForm>1 0 0 1 23.9115 11.0978</XForm>
+            </Shape>
+        </Children>
+    </Shape>
+    <Shape Type="Path" CutIndex="3">
+        <XForm>1 0 0 1.577 -492.013 -407.851</XForm>
+        <V vx="552.35309" vy="288.07693"/>
+        <V vx="552.33228" vy="291.06836"/>
+        <P T="L" p0="0" p1="1"/>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="Wide weak beam - good for fills" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="3">
+        <XForm>1 0 0 1 36.4965 49.3192</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="3.7" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="4">
+        <XForm>1 0 0 1 96.7437 62.1905</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="← Cut / Etch - Surface Focus" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="4">
+        <XForm>1 0 0 1 76.3269 62.0697</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="↨" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="4">
+        <XForm>1 0 0 1 93.9057 61.8194</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="7.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="4">
+        <XForm>1 0 0 1 34.6797 58.7785</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="8.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="4">
+        <XForm>1 0 0 1 24.8509 58.7893</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="9.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="4">
+        <XForm>1 0 0 1 15.1131 58.7893</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="12mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="4">
+        <XForm>1 0 0 1 5.54484 58.6785</XForm>
+    </Shape>
+    <Shape Type="Path" CutIndex="2">
+        <XForm>1 0 0 1 -61.1642 50.9108</XForm>
+        <V vx="61.554688" vy="13.59375"/>
+        <V vx="61.554688" vy="1.59375"/>
+        <V vx="71.554688" vy="1.59375"/>
+        <V vx="71.554688" vy="4.09375"/>
+        <V vx="81.554688" vy="4.09375"/>
+        <V vx="81.554688" vy="5.09375"/>
+        <V vx="91.542969" vy="5.09375"/>
+        <V vx="91.542969" vy="6.09375"/>
+        <V vx="101.53125" vy="6.09375"/>
+        <V vx="101.53125" vy="6.71875"/>
+        <V vx="111.53125" vy="6.71875"/>
+        <V vx="111.53125" vy="7.890625"/>
+        <V vx="121.51953" vy="7.890625"/>
+        <V vx="121.51953" vy="8.390625"/>
+        <V vx="131.51953" vy="8.390625"/>
+        <V vx="131.51953" vy="8.9882813"/>
+        <V vx="141.48047" vy="8.9882813"/>
+        <V vx="141.48047" vy="9.5976563"/>
+        <V vx="151.47266" vy="9.5976563"/>
+        <V vx="151.47266" vy="9.796875"/>
+        <V vx="161.38281" vy="9.796875"/>
+        <V vx="161.38281" vy="13.597656"/>
+        <V vx="141.47266" vy="13.585938"/>
+        <V vx="131.51953" vy="13.595703"/>
+        <P T="L" p0="0" p1="1"/>
+        <P T="L" p0="1" p1="2"/>
+        <P T="L" p0="2" p1="3"/>
+        <P T="L" p0="3" p1="4"/>
+        <P T="L" p0="4" p1="5"/>
+        <P T="L" p0="5" p1="6"/>
+        <P T="L" p0="6" p1="7"/>
+        <P T="L" p0="7" p1="8"/>
+        <P T="L" p0="8" p1="9"/>
+        <P T="L" p0="9" p1="10"/>
+        <P T="L" p0="10" p1="11"/>
+        <P T="L" p0="11" p1="12"/>
+        <P T="L" p0="12" p1="13"/>
+        <P T="L" p0="13" p1="14"/>
+        <P T="L" p0="14" p1="15"/>
+        <P T="L" p0="15" p1="16"/>
+        <P T="L" p0="16" p1="17"/>
+        <P T="L" p0="17" p1="18"/>
+        <P T="L" p0="18" p1="19"/>
+        <P T="L" p0="19" p1="20"/>
+        <P T="L" p0="20" p1="21"/>
+        <P T="L" p0="21" p1="22"/>
+        <P T="L" p0="22" p1="23"/>
+        <P T="L" p0="23" p1="0"/>
+    </Shape>
+    <Shape Type="Path" CutIndex="3">
+        <XForm>1 0 0 1 -462.098 -226.985</XForm>
+        <V vx="552.35309" vy="288.07693"/>
+        <V vx="552.33228" vy="291.06836"/>
+        <P T="L" p0="0" p1="1"/>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="6.8&#10;  " H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="4">
+        <XForm>1 0 0 1 45.6401 59.9248</XForm>
+    </Shape>
+    <Shape Type="Group" CutIndex="0">
+        <XForm>1 0 0 1 34.0954 50.9139</XForm>
+        <Children>
+            <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="BLUR" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="4">
+                <XForm>1 0 0 1 20.5045 11.4587</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="↨" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="4">
+                <XForm>1 0 0 1 23.9115 11.0978</XForm>
+            </Shape>
+        </Children>
+    </Shape>
+    <Shape Type="Path" CutIndex="3">
+        <XForm>1 0 0 1.577 -492.013 -394.851</XForm>
+        <V vx="552.35309" vy="288.07693"/>
+        <V vx="552.33228" vy="291.06836"/>
+        <P T="L" p0="0" p1="1"/>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="Wide weak beam - good for fills" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="4">
+        <XForm>1 0 0 1 36.4965 62.3192</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="3.7" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="5">
+        <XForm>1 0 0 1 96.7437 75.1905</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="← Cut / Etch - Surface Focus" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="5">
+        <XForm>1 0 0 1 76.3269 75.0697</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="↨" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="5">
+        <XForm>1 0 0 1 93.9057 74.8194</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="7.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="5">
+        <XForm>1 0 0 1 34.6797 71.7785</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="8.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="5">
+        <XForm>1 0 0 1 24.8509 71.7893</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="9.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="5">
+        <XForm>1 0 0 1 15.1131 71.7893</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="12mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="5">
+        <XForm>1 0 0 1 5.54484 71.6785</XForm>
+    </Shape>
+    <Shape Type="Path" CutIndex="2">
+        <XForm>1 0 0 1 -61.1642 63.9108</XForm>
+        <V vx="61.554688" vy="13.59375"/>
+        <V vx="61.554688" vy="1.59375"/>
+        <V vx="71.554688" vy="1.59375"/>
+        <V vx="71.554688" vy="4.09375"/>
+        <V vx="81.554688" vy="4.09375"/>
+        <V vx="81.554688" vy="5.09375"/>
+        <V vx="91.542969" vy="5.09375"/>
+        <V vx="91.542969" vy="6.09375"/>
+        <V vx="101.53125" vy="6.09375"/>
+        <V vx="101.53125" vy="6.71875"/>
+        <V vx="111.53125" vy="6.71875"/>
+        <V vx="111.53125" vy="7.890625"/>
+        <V vx="121.51953" vy="7.890625"/>
+        <V vx="121.51953" vy="8.390625"/>
+        <V vx="131.51953" vy="8.390625"/>
+        <V vx="131.51953" vy="8.9882813"/>
+        <V vx="141.48047" vy="8.9882813"/>
+        <V vx="141.48047" vy="9.5976563"/>
+        <V vx="151.47266" vy="9.5976563"/>
+        <V vx="151.47266" vy="9.796875"/>
+        <V vx="161.38281" vy="9.796875"/>
+        <V vx="161.38281" vy="13.597656"/>
+        <V vx="141.47266" vy="13.585938"/>
+        <V vx="131.51953" vy="13.595703"/>
+        <P T="L" p0="0" p1="1"/>
+        <P T="L" p0="1" p1="2"/>
+        <P T="L" p0="2" p1="3"/>
+        <P T="L" p0="3" p1="4"/>
+        <P T="L" p0="4" p1="5"/>
+        <P T="L" p0="5" p1="6"/>
+        <P T="L" p0="6" p1="7"/>
+        <P T="L" p0="7" p1="8"/>
+        <P T="L" p0="8" p1="9"/>
+        <P T="L" p0="9" p1="10"/>
+        <P T="L" p0="10" p1="11"/>
+        <P T="L" p0="11" p1="12"/>
+        <P T="L" p0="12" p1="13"/>
+        <P T="L" p0="13" p1="14"/>
+        <P T="L" p0="14" p1="15"/>
+        <P T="L" p0="15" p1="16"/>
+        <P T="L" p0="16" p1="17"/>
+        <P T="L" p0="17" p1="18"/>
+        <P T="L" p0="18" p1="19"/>
+        <P T="L" p0="19" p1="20"/>
+        <P T="L" p0="20" p1="21"/>
+        <P T="L" p0="21" p1="22"/>
+        <P T="L" p0="22" p1="23"/>
+        <P T="L" p0="23" p1="0"/>
+    </Shape>
+    <Shape Type="Path" CutIndex="3">
+        <XForm>1 0 0 1 -462.098 -213.985</XForm>
+        <V vx="552.35309" vy="288.07693"/>
+        <V vx="552.33228" vy="291.06836"/>
+        <P T="L" p0="0" p1="1"/>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="6.8&#10;  " H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="5">
+        <XForm>1 0 0 1 45.6401 72.9248</XForm>
+    </Shape>
+    <Shape Type="Group" CutIndex="0">
+        <XForm>1 0 0 1 34.0954 63.9139</XForm>
+        <Children>
+            <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="BLUR" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="5">
+                <XForm>1 0 0 1 20.5045 11.4587</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="↨" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="5">
+                <XForm>1 0 0 1 23.9115 11.0978</XForm>
+            </Shape>
+        </Children>
+    </Shape>
+    <Shape Type="Path" CutIndex="3">
+        <XForm>1 0 0 1.577 -492.013 -381.851</XForm>
+        <V vx="552.35309" vy="288.07693"/>
+        <V vx="552.33228" vy="291.06836"/>
+        <P T="L" p0="0" p1="1"/>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="Wide weak beam - good for fills" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="5">
+        <XForm>1 0 0 1 36.4965 75.3192</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="3.7" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="4">
+        <XForm>1 0 0 1 96.7743 88.2531</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="← Cut / Etch - Surface Focus" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="4">
+        <XForm>1 0 0 1 76.3575 88.1323</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="↨" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="4">
+        <XForm>1 0 0 1 93.9363 87.882</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="7.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="4">
+        <XForm>1 0 0 1 34.7103 84.8412</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="8.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="4">
+        <XForm>1 0 0 1 24.8815 84.8519</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="9.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="4">
+        <XForm>1 0 0 1 15.1437 84.8519</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="12mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="4">
+        <XForm>1 0 0 1 5.57547 84.7411</XForm>
+    </Shape>
+    <Shape Type="Path" CutIndex="2">
+        <XForm>1 0 0 1 -61.1336 76.9734</XForm>
+        <V vx="61.554688" vy="13.59375"/>
+        <V vx="61.554688" vy="1.59375"/>
+        <V vx="71.554688" vy="1.59375"/>
+        <V vx="71.554688" vy="4.09375"/>
+        <V vx="81.554688" vy="4.09375"/>
+        <V vx="81.554688" vy="5.09375"/>
+        <V vx="91.542969" vy="5.09375"/>
+        <V vx="91.542969" vy="6.09375"/>
+        <V vx="101.53125" vy="6.09375"/>
+        <V vx="101.53125" vy="6.71875"/>
+        <V vx="111.53125" vy="6.71875"/>
+        <V vx="111.53125" vy="7.890625"/>
+        <V vx="121.51953" vy="7.890625"/>
+        <V vx="121.51953" vy="8.390625"/>
+        <V vx="131.51953" vy="8.390625"/>
+        <V vx="131.51953" vy="8.9882813"/>
+        <V vx="141.48047" vy="8.9882813"/>
+        <V vx="141.48047" vy="9.5976563"/>
+        <V vx="151.47266" vy="9.5976563"/>
+        <V vx="151.47266" vy="9.796875"/>
+        <V vx="161.38281" vy="9.796875"/>
+        <V vx="161.38281" vy="13.597656"/>
+        <V vx="141.47266" vy="13.585938"/>
+        <V vx="131.51953" vy="13.595703"/>
+        <P T="L" p0="0" p1="1"/>
+        <P T="L" p0="1" p1="2"/>
+        <P T="L" p0="2" p1="3"/>
+        <P T="L" p0="3" p1="4"/>
+        <P T="L" p0="4" p1="5"/>
+        <P T="L" p0="5" p1="6"/>
+        <P T="L" p0="6" p1="7"/>
+        <P T="L" p0="7" p1="8"/>
+        <P T="L" p0="8" p1="9"/>
+        <P T="L" p0="9" p1="10"/>
+        <P T="L" p0="10" p1="11"/>
+        <P T="L" p0="11" p1="12"/>
+        <P T="L" p0="12" p1="13"/>
+        <P T="L" p0="13" p1="14"/>
+        <P T="L" p0="14" p1="15"/>
+        <P T="L" p0="15" p1="16"/>
+        <P T="L" p0="16" p1="17"/>
+        <P T="L" p0="17" p1="18"/>
+        <P T="L" p0="18" p1="19"/>
+        <P T="L" p0="19" p1="20"/>
+        <P T="L" p0="20" p1="21"/>
+        <P T="L" p0="21" p1="22"/>
+        <P T="L" p0="22" p1="23"/>
+        <P T="L" p0="23" p1="0"/>
+    </Shape>
+    <Shape Type="Path" CutIndex="3">
+        <XForm>1 0 0 1 -462.067 -200.922</XForm>
+        <V vx="552.35309" vy="288.07693"/>
+        <V vx="552.33228" vy="291.06836"/>
+        <P T="L" p0="0" p1="1"/>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="6.8&#10;  " H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="4">
+        <XForm>1 0 0 1 45.6707 85.9875</XForm>
+    </Shape>
+    <Shape Type="Group" CutIndex="0">
+        <XForm>1 0 0 1 34.126 76.9765</XForm>
+        <Children>
+            <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="BLUR" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="4">
+                <XForm>1 0 0 1 20.5045 11.4587</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="↨" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="4">
+                <XForm>1 0 0 1 23.9115 11.0978</XForm>
+            </Shape>
+        </Children>
+    </Shape>
+    <Shape Type="Path" CutIndex="3">
+        <XForm>1 0 0 1.577 -491.982 -368.788</XForm>
+        <V vx="552.35309" vy="288.07693"/>
+        <V vx="552.33228" vy="291.06836"/>
+        <P T="L" p0="0" p1="1"/>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="Wide weak beam - good for fills" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="4">
+        <XForm>1 0 0 1 36.5271 88.3818</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="3.7" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="5">
+        <XForm>1 0 0 1 96.7743 101.253</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="← Cut / Etch - Surface Focus" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="5">
+        <XForm>1 0 0 1 76.3575 101.132</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="↨" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="5">
+        <XForm>1 0 0 1 93.9363 100.882</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="7.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="5">
+        <XForm>1 0 0 1 34.7103 97.8412</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="8.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="5">
+        <XForm>1 0 0 1 24.8815 97.8519</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="9.5mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="5">
+        <XForm>1 0 0 1 15.1437 97.8519</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="12mm" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="5">
+        <XForm>1 0 0 1 5.57547 97.7411</XForm>
+    </Shape>
+    <Shape Type="Path" CutIndex="2">
+        <XForm>1 0 0 1 -61.1336 89.9734</XForm>
+        <V vx="61.554688" vy="13.59375"/>
+        <V vx="61.554688" vy="1.59375"/>
+        <V vx="71.554688" vy="1.59375"/>
+        <V vx="71.554688" vy="4.09375"/>
+        <V vx="81.554688" vy="4.09375"/>
+        <V vx="81.554688" vy="5.09375"/>
+        <V vx="91.542969" vy="5.09375"/>
+        <V vx="91.542969" vy="6.09375"/>
+        <V vx="101.53125" vy="6.09375"/>
+        <V vx="101.53125" vy="6.71875"/>
+        <V vx="111.53125" vy="6.71875"/>
+        <V vx="111.53125" vy="7.890625"/>
+        <V vx="121.51953" vy="7.890625"/>
+        <V vx="121.51953" vy="8.390625"/>
+        <V vx="131.51953" vy="8.390625"/>
+        <V vx="131.51953" vy="8.9882813"/>
+        <V vx="141.48047" vy="8.9882813"/>
+        <V vx="141.48047" vy="9.5976563"/>
+        <V vx="151.47266" vy="9.5976563"/>
+        <V vx="151.47266" vy="9.796875"/>
+        <V vx="161.38281" vy="9.796875"/>
+        <V vx="161.38281" vy="13.597656"/>
+        <V vx="141.47266" vy="13.585938"/>
+        <V vx="131.51953" vy="13.595703"/>
+        <P T="L" p0="0" p1="1"/>
+        <P T="L" p0="1" p1="2"/>
+        <P T="L" p0="2" p1="3"/>
+        <P T="L" p0="3" p1="4"/>
+        <P T="L" p0="4" p1="5"/>
+        <P T="L" p0="5" p1="6"/>
+        <P T="L" p0="6" p1="7"/>
+        <P T="L" p0="7" p1="8"/>
+        <P T="L" p0="8" p1="9"/>
+        <P T="L" p0="9" p1="10"/>
+        <P T="L" p0="10" p1="11"/>
+        <P T="L" p0="11" p1="12"/>
+        <P T="L" p0="12" p1="13"/>
+        <P T="L" p0="13" p1="14"/>
+        <P T="L" p0="14" p1="15"/>
+        <P T="L" p0="15" p1="16"/>
+        <P T="L" p0="16" p1="17"/>
+        <P T="L" p0="17" p1="18"/>
+        <P T="L" p0="18" p1="19"/>
+        <P T="L" p0="19" p1="20"/>
+        <P T="L" p0="20" p1="21"/>
+        <P T="L" p0="21" p1="22"/>
+        <P T="L" p0="22" p1="23"/>
+        <P T="L" p0="23" p1="0"/>
+    </Shape>
+    <Shape Type="Path" CutIndex="3">
+        <XForm>1 0 0 1 -462.067 -187.922</XForm>
+        <V vx="552.35309" vy="288.07693"/>
+        <V vx="552.33228" vy="291.06836"/>
+        <P T="L" p0="0" p1="1"/>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="6.8&#10;  " H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="5">
+        <XForm>1 0 0 1 45.6707 98.9874</XForm>
+    </Shape>
+    <Shape Type="Group" CutIndex="0">
+        <XForm>1 0 0 1 34.126 89.9765</XForm>
+        <Children>
+            <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="BLUR" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="5">
+                <XForm>1 0 0 1 20.5045 11.4587</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="↨" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="5">
+                <XForm>1 0 0 1 23.9115 11.0978</XForm>
+            </Shape>
+        </Children>
+    </Shape>
+    <Shape Type="Path" CutIndex="3">
+        <XForm>1 0 0 1.577 -491.982 -355.788</XForm>
+        <V vx="552.35309" vy="288.07693"/>
+        <V vx="552.33228" vy="291.06836"/>
+        <P T="L" p0="0" p1="1"/>
+    </Shape>
+    <Shape Type="Text" CutIndex="3" Font="Yu Gothic Light,-1,100,5,50,0,0,0,0,0" Str="Wide weak beam - good for fills" H="2" LS="0" LnS="-25" Ah="1" Av="1" Weld="0" VariableOffset="5">
+        <XForm>1 0 0 1 36.5271 101.382</XForm>
+    </Shape>
+    <Notes ShowOnLoad="0" Notes=""/>
+</LightBurnProject>

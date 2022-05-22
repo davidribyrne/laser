@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightBurnProject AppVersion="0.9.24" FormatVersion="0" MaterialHeight="0" MirrorX="True" MirrorY="True">
+    <Thumbnail Source="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"/>
+    <VariableText>
+        <Start Value="0"/>
+        <End Value="999"/>
+        <Current Value="0"/>
+        <Increment Value="1"/>
+        <AutoAdvance Value="0"/>
+    </VariableText>
+    <UIPrefs>
+        <Optimize_ByLayer Value="0"/>
+        <Optimize_ByGroup Value="-1"/>
+        <Optimize_ByPriority Value="1"/>
+        <Optimize_WhichDirection Value="0"/>
+        <Optimize_InnerToOuter Value="1"/>
+        <Optimize_ByDirection Value="0"/>
+        <Optimize_ReduceTravel Value="1"/>
+        <Optimize_HideBacklash Value="0"/>
+        <Optimize_ReduceDirChanges Value="0"/>
+        <Optimize_ChooseCorners Value="0"/>
+        <Optimize_AllowReverse Value="1"/>
+        <Optimize_RemoveOverlaps Value="0"/>
+        <Optimize_OptimalEntryPoint Value="1"/>
+    </UIPrefs>
+    <CutSetting type="Scan">
+        <index Value="2"/>
+        <name Value="C02"/>
+        <minPower Value="0"/>
+        <maxPower Value="80"/>
+        <minPower2 Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="300"/>
+        <kerf Value="0"/>
+        <zOffset Value="0"/>
+        <enableLaser1 Value="1"/>
+        <enableLaser2 Value="0"/>
+        <startDelay Value="0"/>
+        <endDelay Value="0"/>
+        <throughPower Value="0"/>
+        <throughPower2 Value="0"/>
+        <enableCutThroughStart Value="0"/>
+        <enableCutThroughEnd Value="0"/>
+        <priority Value="0"/>
+        <frequency Value="20000"/>
+        <overrideFrequency Value="0"/>
+        <PPI Value="200"/>
+        <enablePPI Value="0"/>
+        <doOutput Value="1"/>
+        <hide Value="0"/>
+        <runBlower Value="1"/>
+        <autoBlower Value="0"/>
+        <blowerSpeedOverride Value="0"/>
+        <blowerSpeedPercent Value="100"/>
+        <overcut Value="0"/>
+        <rampLength Value="0"/>
+        <rampOuter Value="0"/>
+        <forceConstantPower Value="0"/>
+        <numPasses Value="1"/>
+        <zPerPass Value="0"/>
+        <perforate Value="0"/>
+        <perfLen Value="0.1"/>
+        <perfSkip Value="0.1"/>
+        <dotMode Value="0"/>
+        <dotTime Value="0"/>
+        <dotSpacing Value="0"/>
+        <tabsEnabled Value="0"/>
+        <manualTabs Value="1"/>
+        <tabSize Value="0.5"/>
+        <tabCount Value="-1"/>
+        <tabSpacing Value="50"/>
+        <skipInnerTabs Value="0"/>
+        <tabsUseSpacing Value="1"/>
+        <tabCutPower Value="0"/>
+        <scanOpt Value="mergeAll"/>
+        <bidir Value="1"/>
+        <crossHatch Value="0"/>
+        <overscan Value="0"/>
+        <overscanPercent Value="2.5"/>
+        <floodFill Value="0"/>
+        <interval Value="0.1"/>
+        <angle Value="0"/>
+        <cellsPerInch Value="50"/>
+        <halftoneAngle Value="22.5"/>
+    </CutSetting>
+    <CutSetting type="Scan">
+        <index Value="3"/>
+        <name Value="C03"/>
+        <minPower Value="0"/>
+        <maxPower Value="80"/>
+        <minPower2 Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="250"/>
+        <kerf Value="0"/>
+        <zOffset Value="0"/>
+        <enableLaser1 Value="1"/>
+        <enableLaser2 Value="0"/>
+        <startDelay Value="0"/>
+        <endDelay Value="0"/>
+        <throughPower Value="0"/>
+        <throughPower2 Value="0"/>
+        <enableCutThroughStart Value="0"/>
+        <enableCutThroughEnd Value="0"/>
+        <priority Value="1"/>
+        <frequency Value="20000"/>
+        <overrideFrequency Value="0"/>
+        <PPI Value="200"/>
+        <enablePPI Value="0"/>
+        <doOutput Value="1"/>
+        <hide Value="0"/>
+        <runBlower Value="1"/>
+        <autoBlower Value="0"/>
+        <blowerSpeedOverride Value="0"/>
+        <blowerSpeedPercent Value="100"/>
+        <overcut Value="0"/>
+        <rampLength Value="0"/>
+        <rampOuter Value="0"/>
+        <forceConstantPower Value="0"/>
+        <numPasses Value="1"/>
+        <zPerPass Value="0"/>
+        <perforate Value="0"/>
+        <perfLen Value="0.1"/>
+        <perfSkip Value="0.1"/>
+        <dotMode Value="0"/>
+        <dotTime Value="0"/>
+        <dotSpacing Value="0"/>
+        <tabsEnabled Value="0"/>
+        <manualTabs Value="1"/>
+        <tabSize Value="0.5"/>
+        <tabCount Value="-1"/>
+        <tabSpacing Value="50"/>
+        <skipInnerTabs Value="0"/>
+        <tabsUseSpacing Value="1"/>
+        <tabCutPower Value="0"/>
+        <scanOpt Value="mergeAll"/>
+        <bidir Value="1"/>
+        <crossHatch Value="0"/>
+        <overscan Value="0"/>
+        <overscanPercent Value="2.5"/>
+        <floodFill Value="0"/>
+        <interval Value="0.1"/>
+        <angle Value="0"/>
+        <cellsPerInch Value="50"/>
+        <halftoneAngle Value="22.5"/>
+    </CutSetting>
+    <CutSetting type="Scan">
+        <index Value="4"/>
+        <name Value="C04"/>
+        <minPower Value="0"/>
+        <maxPower Value="80"/>
+        <minPower2 Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="200"/>
+        <kerf Value="0"/>
+        <zOffset Value="0"/>
+        <enableLaser1 Value="1"/>
+        <enableLaser2 Value="0"/>
+        <startDelay Value="0"/>
+        <endDelay Value="0"/>
+        <throughPower Value="0"/>
+        <throughPower2 Value="0"/>
+        <enableCutThroughStart Value="0"/>
+        <enableCutThroughEnd Value="0"/>
+        <priority Value="2"/>
+        <frequency Value="20000"/>
+        <overrideFrequency Value="0"/>
+        <PPI Value="200"/>
+        <enablePPI Value="0"/>
+        <doOutput Value="1"/>
+        <hide Value="0"/>
+        <runBlower Value="1"/>
+        <autoBlower Value="0"/>
+        <blowerSpeedOverride Value="0"/>
+        <blowerSpeedPercent Value="100"/>
+        <overcut Value="0"/>
+        <rampLength Value="0"/>
+        <rampOuter Value="0"/>
+        <forceConstantPower Value="0"/>
+        <numPasses Value="1"/>
+        <zPerPass Value="0"/>
+        <perforate Value="0"/>
+        <perfLen Value="0.1"/>
+        <perfSkip Value="0.1"/>
+        <dotMode Value="0"/>
+        <dotTime Value="0"/>
+        <dotSpacing Value="0"/>
+        <tabsEnabled Value="0"/>
+        <manualTabs Value="1"/>
+        <tabSize Value="0.5"/>
+        <tabCount Value="-1"/>
+        <tabSpacing Value="50"/>
+        <skipInnerTabs Value="0"/>
+        <tabsUseSpacing Value="1"/>
+        <tabCutPower Value="0"/>
+        <scanOpt Value="mergeAll"/>
+        <bidir Value="1"/>
+        <crossHatch Value="0"/>
+        <overscan Value="0"/>
+        <overscanPercent Value="2.5"/>
+        <floodFill Value="0"/>
+        <interval Value="0.1"/>
+        <angle Value="0"/>
+        <cellsPerInch Value="50"/>
+        <halftoneAngle Value="22.5"/>
+    </CutSetting>
+    <CutSetting type="Scan">
+        <index Value="5"/>
+        <name Value="C05"/>
+        <minPower Value="0"/>
+        <maxPower Value="80"/>
+        <minPower2 Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="150"/>
+        <kerf Value="0"/>
+        <zOffset Value="0"/>
+        <enableLaser1 Value="1"/>
+        <enableLaser2 Value="0"/>
+        <startDelay Value="0"/>
+        <endDelay Value="0"/>
+        <throughPower Value="0"/>
+        <throughPower2 Value="0"/>
+        <enableCutThroughStart Value="0"/>
+        <enableCutThroughEnd Value="0"/>
+        <priority Value="3"/>
+        <frequency Value="20000"/>
+        <overrideFrequency Value="0"/>
+        <PPI Value="200"/>
+        <enablePPI Value="0"/>
+        <doOutput Value="1"/>
+        <hide Value="0"/>
+        <runBlower Value="1"/>
+        <autoBlower Value="0"/>
+        <blowerSpeedOverride Value="0"/>
+        <blowerSpeedPercent Value="100"/>
+        <overcut Value="0"/>
+        <rampLength Value="0"/>
+        <rampOuter Value="0"/>
+        <forceConstantPower Value="0"/>
+        <numPasses Value="1"/>
+        <zPerPass Value="0"/>
+        <perforate Value="0"/>
+        <perfLen Value="0.1"/>
+        <perfSkip Value="0.1"/>
+        <dotMode Value="0"/>
+        <dotTime Value="0"/>
+        <dotSpacing Value="0"/>
+        <tabsEnabled Value="0"/>
+        <manualTabs Value="1"/>
+        <tabSize Value="0.5"/>
+        <tabCount Value="-1"/>
+        <tabSpacing Value="50"/>
+        <skipInnerTabs Value="0"/>
+        <tabsUseSpacing Value="1"/>
+        <tabCutPower Value="0"/>
+        <scanOpt Value="mergeAll"/>
+        <bidir Value="1"/>
+        <crossHatch Value="0"/>
+        <overscan Value="0"/>
+        <overscanPercent Value="2.5"/>
+        <floodFill Value="0"/>
+        <interval Value="0.1"/>
+        <angle Value="0"/>
+        <cellsPerInch Value="50"/>
+        <halftoneAngle Value="22.5"/>
+    </CutSetting>
+    <CutSetting type="Scan">
+        <index Value="6"/>
+        <name Value="C06"/>
+        <minPower Value="0"/>
+        <maxPower Value="80"/>
+        <minPower2 Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <kerf Value="0"/>
+        <zOffset Value="0"/>
+        <enableLaser1 Value="1"/>
+        <enableLaser2 Value="0"/>
+        <startDelay Value="0"/>
+        <endDelay Value="0"/>
+        <throughPower Value="0"/>
+        <throughPower2 Value="0"/>
+        <enableCutThroughStart Value="0"/>
+        <enableCutThroughEnd Value="0"/>
+        <priority Value="4"/>
+        <frequency Value="20000"/>
+        <overrideFrequency Value="0"/>
+        <PPI Value="200"/>
+        <enablePPI Value="0"/>
+        <doOutput Value="1"/>
+        <hide Value="0"/>
+        <runBlower Value="1"/>
+        <autoBlower Value="0"/>
+        <blowerSpeedOverride Value="0"/>
+        <blowerSpeedPercent Value="100"/>
+        <overcut Value="0"/>
+        <rampLength Value="0"/>
+        <rampOuter Value="0"/>
+        <forceConstantPower Value="0"/>
+        <numPasses Value="1"/>
+        <zPerPass Value="0"/>
+        <perforate Value="0"/>
+        <perfLen Value="0.1"/>
+        <perfSkip Value="0.1"/>
+        <dotMode Value="0"/>
+        <dotTime Value="0"/>
+        <dotSpacing Value="0"/>
+        <tabsEnabled Value="0"/>
+        <manualTabs Value="1"/>
+        <tabSize Value="0.5"/>
+        <tabCount Value="-1"/>
+        <tabSpacing Value="50"/>
+        <skipInnerTabs Value="0"/>
+        <tabsUseSpacing Value="1"/>
+        <tabCutPower Value="0"/>
+        <scanOpt Value="mergeAll"/>
+        <bidir Value="1"/>
+        <crossHatch Value="0"/>
+        <overscan Value="0"/>
+        <overscanPercent Value="2.5"/>
+        <floodFill Value="0"/>
+        <interval Value="0.1"/>
+        <angle Value="0"/>
+        <cellsPerInch Value="50"/>
+        <halftoneAngle Value="22.5"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="7"/>
+        <name Value="C07"/>
+        <minPower Value="0"/>
+        <maxPower Value="20"/>
+        <minPower2 Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <kerf Value="0"/>
+        <zOffset Value="0"/>
+        <enableLaser1 Value="1"/>
+        <enableLaser2 Value="0"/>
+        <startDelay Value="0"/>
+        <endDelay Value="0"/>
+        <throughPower Value="0"/>
+        <throughPower2 Value="0"/>
+        <enableCutThroughStart Value="0"/>
+        <enableCutThroughEnd Value="0"/>
+        <priority Value="5"/>
+        <frequency Value="20000"/>
+        <overrideFrequency Value="0"/>
+        <PPI Value="200"/>
+        <enablePPI Value="0"/>
+        <doOutput Value="1"/>
+        <hide Value="0"/>
+        <runBlower Value="1"/>
+        <autoBlower Value="0"/>
+        <blowerSpeedOverride Value="0"/>
+        <blowerSpeedPercent Value="100"/>
+        <overcut Value="0"/>
+        <rampLength Value="0"/>
+        <rampOuter Value="0"/>
+        <forceConstantPower Value="0"/>
+        <numPasses Value="1"/>
+        <zPerPass Value="0"/>
+        <perforate Value="0"/>
+        <perfLen Value="0.1"/>
+        <perfSkip Value="0.1"/>
+        <dotMode Value="0"/>
+        <dotTime Value="0"/>
+        <dotSpacing Value="0"/>
+        <tabsEnabled Value="0"/>
+        <manualTabs Value="1"/>
+        <tabSize Value="0.5"/>
+        <tabCount Value="-1"/>
+        <tabSpacing Value="50"/>
+        <skipInnerTabs Value="0"/>
+        <tabsUseSpacing Value="1"/>
+        <tabCutPower Value="0"/>
+        <scanOpt Value="mergeAll"/>
+        <bidir Value="1"/>
+        <crossHatch Value="0"/>
+        <overscan Value="0"/>
+        <overscanPercent Value="2.5"/>
+        <floodFill Value="0"/>
+        <interval Value="0.1"/>
+        <angle Value="0"/>
+        <cellsPerInch Value="50"/>
+        <halftoneAngle Value="22.5"/>
+    </CutSetting>
+    <Shape Type="Group">
+        <XForm>1 0 0 1 0 0</XForm>
+        <Children>
+            <Shape Type="Rect" CutIndex="5" PowerScale="40" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 224.134 140.27</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="5" PowerScale="60" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 157.334 140.27</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="2" PowerScale="80" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 90.499 57.434</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="6" PowerScale="10" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 324.334 167.461</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="7" Font=".AppleSystemUIFont,-1,100,5,50,0,0,0,0,0" Str="250" H="7.5" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 352.075 83.693</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="2" PowerScale="40" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 224.099 57.434</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="7" Font=".AppleSystemUIFont,-1,100,5,50,0,0,0,0,0" Str="Speed" H="7.5" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>0.707107 0.707107 -0.707107 0.707107 356.09 30.7188</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="5" PowerScale="80" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 90.5338 140.27</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="6" PowerScale="30" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 257.534 167.461</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="6" PowerScale="50" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 190.734 167.461</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="3" PowerScale="70" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 123.962 84.625</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="2" PowerScale="70" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 123.962 57.434</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="2" PowerScale="60" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 157.299 57.434</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="3" PowerScale="30" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 257.499 84.625</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="6" PowerScale="70" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 123.997 167.461</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="6" PowerScale="40" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 224.134 167.461</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="3" PowerScale="60" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 157.299 84.625</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="7" Font=".AppleSystemUIFont,-1,100,5,50,0,0,0,0,0" Str="60%" H="7.5" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 157.096 34.243</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="3" PowerScale="50" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 190.699 84.625</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="7" Font=".AppleSystemUIFont,-1,100,5,50,0,0,0,0,0" Str="10%" H="7.5" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 324.086 34.243</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="4" PowerScale="20" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 290.899 111.816</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="4" PowerScale="10" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 324.299 111.816</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="4" PowerScale="40" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 224.099 111.816</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="5" PowerScale="10" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 324.334 140.27</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="2" PowerScale="20" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 290.899 57.434</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="4" PowerScale="80" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 90.499 111.816</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="7" Font=".AppleSystemUIFont,-1,100,5,50,0,0,0,0,0" Str="40%" H="7.5" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 223.874 34.243</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="5" PowerScale="30" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 257.534 140.27</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="7" Font=".AppleSystemUIFont,-1,100,5,50,0,0,0,0,0" Str="50%" H="7.5" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 190.543 34.243</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="2" PowerScale="10" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 324.299 57.434</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="2" PowerScale="30" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 257.499 57.434</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="5" PowerScale="70" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 123.997 140.27</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="6" PowerScale="20" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 290.934 167.461</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="7" Font=".AppleSystemUIFont,-1,100,5,50,0,0,0,0,0" Str="200" H="7.5" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 352.075 110.884</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="7" Font=".AppleSystemUIFont,-1,100,5,50,0,0,0,0,0" Str="Power" H="10" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 204.274 17.0579</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="2" PowerScale="50" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 190.699 57.434</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="3" PowerScale="20" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 290.899 84.625</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="6" PowerScale="60" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 157.334 167.461</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="3" PowerScale="80" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 90.499 84.625</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="7" Font=".AppleSystemUIFont,-1,100,5,50,0,0,0,0,0" Str="80%" H="7.5" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 90.3075 34.243</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="7" Font=".AppleSystemUIFont,-1,100,5,50,0,0,0,0,0" Str="20%" H="7.5" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 290.743 34.243</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="3" PowerScale="40" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 224.099 84.625</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="6" PowerScale="80" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 90.5338 167.461</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="7" Font=".AppleSystemUIFont,-1,100,5,50,0,0,0,0,0" Str="mm/sec" H="5" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>0.707107 0.707107 -0.707107 0.707107 352.581 37.9078</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="3" PowerScale="10" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 324.299 84.625</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="4" PowerScale="60" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 157.299 111.816</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="4" PowerScale="30" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 257.499 111.816</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="7" Font=".AppleSystemUIFont,-1,100,5,50,0,0,0,0,0" Str="150" H="7.5" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 352.075 138.075</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="7" Font=".AppleSystemUIFont,-1,100,5,50,0,0,0,0,0" Str="30%" H="7.5" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 257.319 34.243</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="5" PowerScale="50" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 190.734 140.27</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="4" PowerScale="70" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 123.962 111.816</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="4" PowerScale="50" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 190.699 111.816</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="7" Font=".AppleSystemUIFont,-1,100,5,50,0,0,0,0,0" Str="100" H="7.5" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 352.075 165.266</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="7" Font=".AppleSystemUIFont,-1,100,5,50,0,0,0,0,0" Str="300" H="7.5" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 352.075 56.502</XForm>
+            </Shape>
+            <Shape Type="Rect" CutIndex="5" PowerScale="20" W="43" H="27" Cr="0">
+                <XForm>0.590698 0 0 0.705555 290.934 140.27</XForm>
+            </Shape>
+            <Shape Type="Text" CutIndex="7" Font=".AppleSystemUIFont,-1,100,5,50,0,0,0,0,0" Str="70%" H="7.5" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+                <XForm>1 0 0 1 123.699 34.243</XForm>
+            </Shape>
+        </Children>
+    </Shape>
+    <Notes ShowOnLoad="0" Notes=""/>
+</LightBurnProject>
