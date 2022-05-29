@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightBurnProject AppVersion="1.1.04" FormatVersion="1" MaterialHeight="0" MirrorX="True" MirrorY="True">
+    <VariableText>
+        <Start Value="0"/>
+        <End Value="999"/>
+        <Current Value="0"/>
+        <Increment Value="1"/>
+        <AutoAdvance Value="0"/>
+    </VariableText>
+    <UIPrefs>
+        <Optimize_ByLayer Value="0"/>
+        <Optimize_ByGroup Value="-1"/>
+        <Optimize_ByPriority Value="1"/>
+        <Optimize_WhichDirection Value="0"/>
+        <Optimize_InnerToOuter Value="1"/>
+        <Optimize_ByDirection Value="0"/>
+        <Optimize_ReduceTravel Value="1"/>
+        <Optimize_HideBacklash Value="0"/>
+        <Optimize_ReduceDirChanges Value="0"/>
+        <Optimize_ChooseCorners Value="0"/>
+        <Optimize_AllowReverse Value="1"/>
+        <Optimize_RemoveOverlaps Value="0"/>
+        <Optimize_OptimalEntryPoint Value="1"/>
+    </UIPrefs>
+    <CutSetting type="Scan">
+        <index Value="0"/>
+        <name Value="Text"/>
+        <minPower Value="10"/>
+        <maxPower Value="10"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="20"/>
+        <speed Value="20"/>
+        <priority Value="0"/>
+        <perfLen Value="0.09906"/>
+        <perfSkip Value="0.09906"/>
+        <dotTime Value="1"/>
+        <tabCount Value="1"/>
+        <tabCountMax Value="1"/>
+        <tabSpacing Value="50.04"/>
+        <overscan Value="0"/>
+        <floodFill Value="1"/>
+        <interval Value="0.101"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="1"/>
+        <name Value="line"/>
+        <minPower Value="10"/>
+        <maxPower Value="10"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="10"/>
+        <speed Value="10"/>
+        <priority Value="6"/>
+        <numPasses Value="1"/>
+        <perfLen Value="0.09906"/>
+        <perfSkip Value="0.09906"/>
+        <dotTime Value="1"/>
+        <tabCount Value="1"/>
+        <tabCountMax Value="1"/>
+        <overscan Value="0"/>
+        <floodFill Value="1"/>
+        <interval Value="0.101"/>
+    </CutSetting>
+
+
+    <CutSetting type="Scan+Cut">
+        <index Value="2"/>
+        <name Value="10mm/s @ 1 pass"/>
+        <minPower Value="10"/>
+        <maxPower Value="50"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="50"/>
+        <speed Value="10"/>
+        <priority Value="1"/>
+        <numPasses Value="1"/>
+        <perfLen Value="0.09906"/>
+        <perfSkip Value="0.09906"/>
+        <dotTime Value="1"/>
+        <overscan Value="0"/>
+        <floodFill Value="1"/>
+        <interval Value="0.101"/>
+    </CutSetting>
+    <CutSetting type="Scan+Cut">
+        <index Value="3"/>
+        <name Value="40mm/s @ 1 pass"/>
+        <minPower Value="10"/>
+        <maxPower Value="50"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="50"/>
+        <speed Value="40"/>
+        <priority Value="1"/>
+        <numPasses Value="1"/>
+        <perfLen Value="0.09906"/>
+        <perfSkip Value="0.09906"/>
+        <dotTime Value="1"/>
+        <overscan Value="0"/>
+        <floodFill Value="1"/>
+        <interval Value="0.101"/>
+    </CutSetting>
+    <CutSetting type="Scan+Cut">
+        <index Value="4"/>
+        <name Value="100mm/s @ 1 pass"/>
+        <minPower Value="10"/>
+        <maxPower Value="50"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="50"/>
+        <speed Value="100"/>
+        <priority Value="1"/>
+        <numPasses Value="1"/>
+        <perfLen Value="0.09906"/>
+        <perfSkip Value="0.09906"/>
+        <dotTime Value="1"/>
+        <overscan Value="0"/>
+        <floodFill Value="1"/>
+        <interval Value="0.101"/>
+    </CutSetting>
+    <CutSetting type="Scan+Cut">
+        <index Value="5"/>
+        <name Value="300mm/s @ 1 pass"/>
+        <minPower Value="10"/>
+        <maxPower Value="50"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="50"/>
+        <speed Value="300"/>
+        <priority Value="1"/>
+        <numPasses Value="1"/>
+        <perfLen Value="0.09906"/>
+        <perfSkip Value="0.09906"/>
+        <dotTime Value="1"/>
+        <overscan Value="0"/>
+        <floodFill Value="1"/>
+        <interval Value="0.101"/>
+    </CutSetting>
+    <CutSetting type="Scan+Cut">
+        <index Value="6"/>
+        <name Value="800mm/s @ 1 pass"/>
+        <minPower Value="10"/>
+        <maxPower Value="50"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="50"/>
+        <speed Value="800"/>
+        <priority Value="1"/>
+        <numPasses Value="1"/>
+        <perfLen Value="0.09906"/>
+        <perfSkip Value="0.09906"/>
+        <dotTime Value="1"/>
+        <overscan Value="0"/>
+        <floodFill Value="1"/>
+        <interval Value="0.101"/>
+    </CutSetting>
+    <CutSetting type="Scan+Cut">
+        <index Value="7"/>
+        <name Value="10mm/s @ 2 passes"/>
+        <minPower Value="10"/>
+        <maxPower Value="50"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="50"/>
+        <speed Value="10"/>
+        <priority Value="1"/>
+        <numPasses Value="2"/>
+        <perfLen Value="0.09906"/>
+        <perfSkip Value="0.09906"/>
+        <dotTime Value="1"/>
+        <overscan Value="0"/>
+        <floodFill Value="1"/>
+        <interval Value="0.101"/>
+    </CutSetting>
+    <CutSetting type="Scan+Cut">
+        <index Value="8"/>
+        <name Value="40mm/s @ 2 passes"/>
+        <minPower Value="10"/>
+        <maxPower Value="50"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="50"/>
+        <speed Value="40"/>
+        <priority Value="1"/>
+        <numPasses Value="2"/>
+        <perfLen Value="0.09906"/>
+        <perfSkip Value="0.09906"/>
+        <dotTime Value="1"/>
+        <overscan Value="0"/>
+        <floodFill Value="1"/>
+        <interval Value="0.101"/>
+    </CutSetting>
+    <CutSetting type="Scan+Cut">
+        <index Value="9"/>
+        <name Value="100mm/s @ 2 passes"/>
+        <minPower Value="10"/>
+        <maxPower Value="50"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="50"/>
+        <speed Value="100"/>
+        <priority Value="1"/>
+        <numPasses Value="2"/>
+        <perfLen Value="0.09906"/>
+        <perfSkip Value="0.09906"/>
+        <dotTime Value="1"/>
+        <overscan Value="0"/>
+        <floodFill Value="1"/>
+        <interval Value="0.101"/>
+    </CutSetting>
+    <CutSetting type="Scan+Cut">
+        <index Value="10"/>
+        <name Value="300mm/s @ 2 passes"/>
+        <minPower Value="10"/>
+        <maxPower Value="50"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="50"/>
+        <speed Value="300"/>
+        <priority Value="1"/>
+        <numPasses Value="2"/>
+        <perfLen Value="0.09906"/>
+        <perfSkip Value="0.09906"/>
+        <dotTime Value="1"/>
+        <overscan Value="0"/>
+        <floodFill Value="1"/>
+        <interval Value="0.101"/>
+    </CutSetting>
+    <CutSetting type="Scan+Cut">
+        <index Value="11"/>
+        <name Value="800mm/s @ 2 passes"/>
+        <minPower Value="10"/>
+        <maxPower Value="50"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="50"/>
+        <speed Value="800"/>
+        <priority Value="1"/>
+        <numPasses Value="2"/>
+        <perfLen Value="0.09906"/>
+        <perfSkip Value="0.09906"/>
+        <dotTime Value="1"/>
+        <overscan Value="0"/>
+        <floodFill Value="1"/>
+        <interval Value="0.101"/>
+    </CutSetting>
+    <CutSetting type="Scan+Cut">
+        <index Value="12"/>
+        <name Value="10mm/s @ 3 passes"/>
+        <minPower Value="10"/>
+        <maxPower Value="50"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="50"/>
+        <speed Value="10"/>
+        <priority Value="1"/>
+        <numPasses Value="3"/>
+        <perfLen Value="0.09906"/>
+        <perfSkip Value="0.09906"/>
+        <dotTime Value="1"/>
+        <overscan Value="0"/>
+        <floodFill Value="1"/>
+        <interval Value="0.101"/>
+    </CutSetting>
+    <CutSetting type="Scan+Cut">
+        <index Value="13"/>
+        <name Value="40mm/s @ 3 passes"/>
+        <minPower Value="10"/>
+        <maxPower Value="50"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="50"/>
+        <speed Value="40"/>
+        <priority Value="1"/>
+        <numPasses Value="3"/>
+        <perfLen Value="0.09906"/>
+        <perfSkip Value="0.09906"/>
+        <dotTime Value="1"/>
+        <overscan Value="0"/>
+        <floodFill Value="1"/>
+        <interval Value="0.101"/>
+    </CutSetting>
+    <CutSetting type="Scan+Cut">
+        <index Value="14"/>
+        <name Value="100mm/s @ 3 passes"/>
+        <minPower Value="10"/>
+        <maxPower Value="50"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="50"/>
+        <speed Value="100"/>
+        <priority Value="1"/>
+        <numPasses Value="3"/>
+        <perfLen Value="0.09906"/>
+        <perfSkip Value="0.09906"/>
+        <dotTime Value="1"/>
+        <overscan Value="0"/>
+        <floodFill Value="1"/>
+        <interval Value="0.101"/>
+    </CutSetting>
+    <CutSetting type="Scan+Cut">
+        <index Value="15"/>
+        <name Value="300mm/s @ 3 passes"/>
+        <minPower Value="10"/>
+        <maxPower Value="50"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="50"/>
+        <speed Value="300"/>
+        <priority Value="1"/>
+        <numPasses Value="3"/>
+        <perfLen Value="0.09906"/>
+        <perfSkip Value="0.09906"/>
+        <dotTime Value="1"/>
+        <overscan Value="0"/>
+        <floodFill Value="1"/>
+        <interval Value="0.101"/>
+    </CutSetting>
+    <CutSetting type="Scan+Cut">
+        <index Value="16"/>
+        <name Value="800mm/s @ 3 passes"/>
+        <minPower Value="10"/>
+        <maxPower Value="50"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="50"/>
+        <speed Value="800"/>
+        <priority Value="1"/>
+        <numPasses Value="3"/>
+        <perfLen Value="0.09906"/>
+        <perfSkip Value="0.09906"/>
+        <dotTime Value="1"/>
+        <overscan Value="0"/>
+        <floodFill Value="1"/>
+        <interval Value="0.101"/>
+    </CutSetting>
+    <CutSetting type="Scan+Cut">
+        <index Value="17"/>
+        <name Value="10mm/s @ 4 passes"/>
+        <minPower Value="10"/>
+        <maxPower Value="50"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="50"/>
+        <speed Value="10"/>
+        <priority Value="1"/>
+        <numPasses Value="4"/>
+        <perfLen Value="0.09906"/>
+        <perfSkip Value="0.09906"/>
+        <dotTime Value="1"/>
+        <overscan Value="0"/>
+        <floodFill Value="1"/>
+        <interval Value="0.101"/>
+    </CutSetting>
+    <CutSetting type="Scan+Cut">
+        <index Value="18"/>
+        <name Value="40mm/s @ 4 passes"/>
+        <minPower Value="10"/>
+        <maxPower Value="50"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="50"/>
+        <speed Value="40"/>
+        <priority Value="1"/>
+        <numPasses Value="4"/>
+        <perfLen Value="0.09906"/>
+        <perfSkip Value="0.09906"/>
+        <dotTime Value="1"/>
+        <overscan Value="0"/>
+        <floodFill Value="1"/>
+        <interval Value="0.101"/>
+    </CutSetting>
+    <CutSetting type="Scan+Cut">
+        <index Value="19"/>
+        <name Value="100mm/s @ 4 passes"/>
+        <minPower Value="10"/>
+        <maxPower Value="50"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="50"/>
+        <speed Value="100"/>
+        <priority Value="1"/>
+        <numPasses Value="4"/>
+        <perfLen Value="0.09906"/>
+        <perfSkip Value="0.09906"/>
+        <dotTime Value="1"/>
+        <overscan Value="0"/>
+        <floodFill Value="1"/>
+        <interval Value="0.101"/>
+    </CutSetting>
+    <CutSetting type="Scan+Cut">
+        <index Value="20"/>
+        <name Value="300mm/s @ 4 passes"/>
+        <minPower Value="10"/>
+        <maxPower Value="50"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="50"/>
+        <speed Value="300"/>
+        <priority Value="1"/>
+        <numPasses Value="4"/>
+        <perfLen Value="0.09906"/>
+        <perfSkip Value="0.09906"/>
+        <dotTime Value="1"/>
+        <overscan Value="0"/>
+        <floodFill Value="1"/>
+        <interval Value="0.101"/>
+    </CutSetting>
+    <CutSetting type="Scan+Cut">
+        <index Value="21"/>
+        <name Value="800mm/s @ 4 passes"/>
+        <minPower Value="10"/>
+        <maxPower Value="50"/>
+        <minPower2 Value="10"/>
+        <maxPower2 Value="50"/>
+        <speed Value="800"/>
+        <priority Value="1"/>
+        <numPasses Value="4"/>
+        <perfLen Value="0.09906"/>
+        <perfSkip Value="0.09906"/>
+        <dotTime Value="1"/>
+        <overscan Value="0"/>
+        <floodFill Value="1"/>
+        <interval Value="0.101"/>
+    </CutSetting>
+
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="1/4&quot; masked acrylic - 1 pass" H="7" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 98 54</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="Speed (mm/s)" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>0 -1 1 0 54 91</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="10" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 65 67</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="40" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 65 79</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="100" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 65 91</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="300" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 65 103</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="800" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 65 115</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="2" PowerScale="20" Rx="5" Ry="5">
+        <XForm>1 0 0 1 78 67</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="3" PowerScale="20" Rx="5" Ry="5">
+        <XForm>1 0 0 1 78 79</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="4" PowerScale="20" Rx="5" Ry="5">
+        <XForm>1 0 0 1 78 91</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="5" PowerScale="20" Rx="5" Ry="5">
+        <XForm>1 0 0 1 78 103</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="6" PowerScale="20" Rx="5" Ry="5">
+        <XForm>1 0 0 1 78 115</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="2" PowerScale="30" Rx="5" Ry="5">
+        <XForm>1 0 0 1 90 67</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="3" PowerScale="30" Rx="5" Ry="5">
+        <XForm>1 0 0 1 90 79</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="4" PowerScale="30" Rx="5" Ry="5">
+        <XForm>1 0 0 1 90 91</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="5" PowerScale="30" Rx="5" Ry="5">
+        <XForm>1 0 0 1 90 103</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="6" PowerScale="30" Rx="5" Ry="5">
+        <XForm>1 0 0 1 90 115</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="2" PowerScale="50" Rx="5" Ry="5">
+        <XForm>1 0 0 1 102 67</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="3" PowerScale="50" Rx="5" Ry="5">
+        <XForm>1 0 0 1 102 79</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="4" PowerScale="50" Rx="5" Ry="5">
+        <XForm>1 0 0 1 102 91</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="5" PowerScale="50" Rx="5" Ry="5">
+        <XForm>1 0 0 1 102 103</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="6" PowerScale="50" Rx="5" Ry="5">
+        <XForm>1 0 0 1 102 115</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="2" PowerScale="60" Rx="5" Ry="5">
+        <XForm>1 0 0 1 114 67</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="3" PowerScale="60" Rx="5" Ry="5">
+        <XForm>1 0 0 1 114 79</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="4" PowerScale="60" Rx="5" Ry="5">
+        <XForm>1 0 0 1 114 91</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="5" PowerScale="60" Rx="5" Ry="5">
+        <XForm>1 0 0 1 114 103</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="6" PowerScale="60" Rx="5" Ry="5">
+        <XForm>1 0 0 1 114 115</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="2" PowerScale="70" Rx="5" Ry="5">
+        <XForm>1 0 0 1 126 67</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="3" PowerScale="70" Rx="5" Ry="5">
+        <XForm>1 0 0 1 126 79</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="4" PowerScale="70" Rx="5" Ry="5">
+        <XForm>1 0 0 1 126 91</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="5" PowerScale="70" Rx="5" Ry="5">
+        <XForm>1 0 0 1 126 103</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="6" PowerScale="70" Rx="5" Ry="5">
+        <XForm>1 0 0 1 126 115</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="2" PowerScale="80" Rx="5" Ry="5">
+        <XForm>1 0 0 1 138 67</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="3" PowerScale="80" Rx="5" Ry="5">
+        <XForm>1 0 0 1 138 79</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="4" PowerScale="80" Rx="5" Ry="5">
+        <XForm>1 0 0 1 138 91</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="5" PowerScale="80" Rx="5" Ry="5">
+        <XForm>1 0 0 1 138 103</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="6" PowerScale="80" Rx="5" Ry="5">
+        <XForm>1 0 0 1 138 115</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="10" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 78 126</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="15" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 90 126</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="25" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 102 126</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="30" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 114 126</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="35" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 126 126</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="40" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 138 126</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="Power %" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 108 133</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="1" W="104" H="95" Cr="4">
+        <XForm>1 0 0 1 98 93.5</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="1/4&quot; masked acrylic - 2 passes" H="7" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 210 54</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="Speed (mm/s)" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>0 -1 1 0 166 91</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="10" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 177 67</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="40" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 177 79</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="100" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 177 91</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="300" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 177 103</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="800" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 177 115</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="7" PowerScale="20" Rx="5" Ry="5">
+        <XForm>1 0 0 1 190 67</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="8" PowerScale="20" Rx="5" Ry="5">
+        <XForm>1 0 0 1 190 79</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="9" PowerScale="20" Rx="5" Ry="5">
+        <XForm>1 0 0 1 190 91</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="10" PowerScale="20" Rx="5" Ry="5">
+        <XForm>1 0 0 1 190 103</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="11" PowerScale="20" Rx="5" Ry="5">
+        <XForm>1 0 0 1 190 115</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="7" PowerScale="30" Rx="5" Ry="5">
+        <XForm>1 0 0 1 202 67</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="8" PowerScale="30" Rx="5" Ry="5">
+        <XForm>1 0 0 1 202 79</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="9" PowerScale="30" Rx="5" Ry="5">
+        <XForm>1 0 0 1 202 91</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="10" PowerScale="30" Rx="5" Ry="5">
+        <XForm>1 0 0 1 202 103</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="11" PowerScale="30" Rx="5" Ry="5">
+        <XForm>1 0 0 1 202 115</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="7" PowerScale="50" Rx="5" Ry="5">
+        <XForm>1 0 0 1 214 67</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="8" PowerScale="50" Rx="5" Ry="5">
+        <XForm>1 0 0 1 214 79</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="9" PowerScale="50" Rx="5" Ry="5">
+        <XForm>1 0 0 1 214 91</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="10" PowerScale="50" Rx="5" Ry="5">
+        <XForm>1 0 0 1 214 103</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="11" PowerScale="50" Rx="5" Ry="5">
+        <XForm>1 0 0 1 214 115</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="7" PowerScale="60" Rx="5" Ry="5">
+        <XForm>1 0 0 1 226 67</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="8" PowerScale="60" Rx="5" Ry="5">
+        <XForm>1 0 0 1 226 79</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="9" PowerScale="60" Rx="5" Ry="5">
+        <XForm>1 0 0 1 226 91</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="10" PowerScale="60" Rx="5" Ry="5">
+        <XForm>1 0 0 1 226 103</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="11" PowerScale="60" Rx="5" Ry="5">
+        <XForm>1 0 0 1 226 115</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="7" PowerScale="70" Rx="5" Ry="5">
+        <XForm>1 0 0 1 238 67</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="8" PowerScale="70" Rx="5" Ry="5">
+        <XForm>1 0 0 1 238 79</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="9" PowerScale="70" Rx="5" Ry="5">
+        <XForm>1 0 0 1 238 91</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="10" PowerScale="70" Rx="5" Ry="5">
+        <XForm>1 0 0 1 238 103</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="11" PowerScale="70" Rx="5" Ry="5">
+        <XForm>1 0 0 1 238 115</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="7" PowerScale="80" Rx="5" Ry="5">
+        <XForm>1 0 0 1 250 67</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="8" PowerScale="80" Rx="5" Ry="5">
+        <XForm>1 0 0 1 250 79</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="9" PowerScale="80" Rx="5" Ry="5">
+        <XForm>1 0 0 1 250 91</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="10" PowerScale="80" Rx="5" Ry="5">
+        <XForm>1 0 0 1 250 103</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="11" PowerScale="80" Rx="5" Ry="5">
+        <XForm>1 0 0 1 250 115</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="10" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 190 126</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="15" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 202 126</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="25" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 214 126</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="30" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 226 126</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="35" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 238 126</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="40" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 250 126</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="Power %" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 220 133</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="1" W="104" H="95" Cr="4">
+        <XForm>1 0 0 1 210 93.5</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="1/4&quot; masked acrylic - 3 passes" H="7" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 98 157</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="Speed (mm/s)" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>0 -1 1 0 54 194</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="10" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 65 170</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="40" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 65 182</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="100" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 65 194</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="300" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 65 206</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="800" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 65 218</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="12" PowerScale="20" Rx="5" Ry="5">
+        <XForm>1 0 0 1 78 170</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="13" PowerScale="20" Rx="5" Ry="5">
+        <XForm>1 0 0 1 78 182</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="14" PowerScale="20" Rx="5" Ry="5">
+        <XForm>1 0 0 1 78 194</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="15" PowerScale="20" Rx="5" Ry="5">
+        <XForm>1 0 0 1 78 206</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="16" PowerScale="20" Rx="5" Ry="5">
+        <XForm>1 0 0 1 78 218</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="12" PowerScale="30" Rx="5" Ry="5">
+        <XForm>1 0 0 1 90 170</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="13" PowerScale="30" Rx="5" Ry="5">
+        <XForm>1 0 0 1 90 182</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="14" PowerScale="30" Rx="5" Ry="5">
+        <XForm>1 0 0 1 90 194</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="15" PowerScale="30" Rx="5" Ry="5">
+        <XForm>1 0 0 1 90 206</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="16" PowerScale="30" Rx="5" Ry="5">
+        <XForm>1 0 0 1 90 218</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="12" PowerScale="50" Rx="5" Ry="5">
+        <XForm>1 0 0 1 102 170</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="13" PowerScale="50" Rx="5" Ry="5">
+        <XForm>1 0 0 1 102 182</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="14" PowerScale="50" Rx="5" Ry="5">
+        <XForm>1 0 0 1 102 194</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="15" PowerScale="50" Rx="5" Ry="5">
+        <XForm>1 0 0 1 102 206</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="16" PowerScale="50" Rx="5" Ry="5">
+        <XForm>1 0 0 1 102 218</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="12" PowerScale="60" Rx="5" Ry="5">
+        <XForm>1 0 0 1 114 170</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="13" PowerScale="60" Rx="5" Ry="5">
+        <XForm>1 0 0 1 114 182</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="14" PowerScale="60" Rx="5" Ry="5">
+        <XForm>1 0 0 1 114 194</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="15" PowerScale="60" Rx="5" Ry="5">
+        <XForm>1 0 0 1 114 206</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="16" PowerScale="60" Rx="5" Ry="5">
+        <XForm>1 0 0 1 114 218</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="12" PowerScale="70" Rx="5" Ry="5">
+        <XForm>1 0 0 1 126 170</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="13" PowerScale="70" Rx="5" Ry="5">
+        <XForm>1 0 0 1 126 182</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="14" PowerScale="70" Rx="5" Ry="5">
+        <XForm>1 0 0 1 126 194</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="15" PowerScale="70" Rx="5" Ry="5">
+        <XForm>1 0 0 1 126 206</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="16" PowerScale="70" Rx="5" Ry="5">
+        <XForm>1 0 0 1 126 218</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="12" PowerScale="80" Rx="5" Ry="5">
+        <XForm>1 0 0 1 138 170</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="13" PowerScale="80" Rx="5" Ry="5">
+        <XForm>1 0 0 1 138 182</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="14" PowerScale="80" Rx="5" Ry="5">
+        <XForm>1 0 0 1 138 194</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="15" PowerScale="80" Rx="5" Ry="5">
+        <XForm>1 0 0 1 138 206</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="16" PowerScale="80" Rx="5" Ry="5">
+        <XForm>1 0 0 1 138 218</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="10" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 78 229</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="15" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 90 229</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="25" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 102 229</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="30" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 114 229</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="35" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 126 229</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="40" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 138 229</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="Power %" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 108 236</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="1" W="104" H="95" Cr="4">
+        <XForm>1 0 0 1 98 196.5</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="1/4&quot; masked acrylic - 4 passes" H="7" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 210 157</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="Speed (mm/s)" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>0 -1 1 0 166 194</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="10" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 177 170</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="40" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 177 182</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="100" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 177 194</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="300" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 177 206</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="800" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 177 218</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="17" PowerScale="20" Rx="5" Ry="5">
+        <XForm>1 0 0 1 190 170</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="18" PowerScale="20" Rx="5" Ry="5">
+        <XForm>1 0 0 1 190 182</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="19" PowerScale="20" Rx="5" Ry="5">
+        <XForm>1 0 0 1 190 194</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="20" PowerScale="20" Rx="5" Ry="5">
+        <XForm>1 0 0 1 190 206</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="21" PowerScale="20" Rx="5" Ry="5">
+        <XForm>1 0 0 1 190 218</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="17" PowerScale="30" Rx="5" Ry="5">
+        <XForm>1 0 0 1 202 170</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="18" PowerScale="30" Rx="5" Ry="5">
+        <XForm>1 0 0 1 202 182</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="19" PowerScale="30" Rx="5" Ry="5">
+        <XForm>1 0 0 1 202 194</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="20" PowerScale="30" Rx="5" Ry="5">
+        <XForm>1 0 0 1 202 206</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="21" PowerScale="30" Rx="5" Ry="5">
+        <XForm>1 0 0 1 202 218</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="17" PowerScale="50" Rx="5" Ry="5">
+        <XForm>1 0 0 1 214 170</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="18" PowerScale="50" Rx="5" Ry="5">
+        <XForm>1 0 0 1 214 182</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="19" PowerScale="50" Rx="5" Ry="5">
+        <XForm>1 0 0 1 214 194</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="20" PowerScale="50" Rx="5" Ry="5">
+        <XForm>1 0 0 1 214 206</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="21" PowerScale="50" Rx="5" Ry="5">
+        <XForm>1 0 0 1 214 218</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="17" PowerScale="60" Rx="5" Ry="5">
+        <XForm>1 0 0 1 226 170</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="18" PowerScale="60" Rx="5" Ry="5">
+        <XForm>1 0 0 1 226 182</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="19" PowerScale="60" Rx="5" Ry="5">
+        <XForm>1 0 0 1 226 194</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="20" PowerScale="60" Rx="5" Ry="5">
+        <XForm>1 0 0 1 226 206</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="21" PowerScale="60" Rx="5" Ry="5">
+        <XForm>1 0 0 1 226 218</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="17" PowerScale="70" Rx="5" Ry="5">
+        <XForm>1 0 0 1 238 170</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="18" PowerScale="70" Rx="5" Ry="5">
+        <XForm>1 0 0 1 238 182</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="19" PowerScale="70" Rx="5" Ry="5">
+        <XForm>1 0 0 1 238 194</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="20" PowerScale="70" Rx="5" Ry="5">
+        <XForm>1 0 0 1 238 206</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="21" PowerScale="70" Rx="5" Ry="5">
+        <XForm>1 0 0 1 238 218</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="17" PowerScale="80" Rx="5" Ry="5">
+        <XForm>1 0 0 1 250 170</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="18" PowerScale="80" Rx="5" Ry="5">
+        <XForm>1 0 0 1 250 182</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="19" PowerScale="80" Rx="5" Ry="5">
+        <XForm>1 0 0 1 250 194</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="20" PowerScale="80" Rx="5" Ry="5">
+        <XForm>1 0 0 1 250 206</XForm>
+    </Shape>
+    <Shape Type="Ellipse" CutIndex="21" PowerScale="80" Rx="5" Ry="5">
+        <XForm>1 0 0 1 250 218</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="10" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 190 229</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="15" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 202 229</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="25" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 214 229</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="30" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 226 229</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="35" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 238 229</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="40" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 250 229</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="Power %" H="6" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+            <XForm>1 0 0 1 220 236</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="1" W="104" H="95" Cr="4">
+        <XForm>1 0 0 1 210 196.5</XForm>
+    </Shape>
+
+    <Notes ShowOnLoad="0" Notes=""/>
+</LightBurnProject>
+
