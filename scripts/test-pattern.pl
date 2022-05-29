@@ -1,30 +1,39 @@
 #!/usr/bin/perl
 use strict;
+use POSIX;
+
 
 my ($header, $footer, $settings, $settingTemplate, %profiles, $elipseTemplate, $textTemplate);
 my $CUT = 'Cut';
 my $SCAN = 'Scan';
 my $SCAN_CUT = 'Scan+Cut';
 my $type = $SCAN_CUT;
-my $max = 50;
+my $maxSafePower = 50;
+my $TEXT_INDEX = 0;
+my $LINE_INDEX = 1;
+my $CUT_INDEX = 2;
 
-
+my $title = "1/4&quot; masked acrylic";
 my @powers=(10, 15, 25, 30, 35, 40);
 my @speeds=(10, 40, 100, 300, 800);
-my @passCounts=(1, 2, 3, 4);
+my @passCounts=(1);
 
-my $padding = 4;
-my $textSize = 6;
+my $maxRowSize = 2;
+my $originX = 50;
+my $originY = 50;
+
+my $borderPadding = 2;
+my $textSize = 3;
 my $titleSize = $textSize + 1;
-my $radius = 5;
-my $gap = 2;
+my $radius = 3;
+my $gap = 1;
 my $increment = $radius * 2 + $gap;
 my $labelSpacing = 1;
-my $verticalAxisLabelWidth = 10;
+my $verticalAxisLabelWidth = 5;
 my $titleSpace = $textSize * 2 + $labelSpacing;
 
-my $width = $padding + $verticalAxisLabelWidth + $labelSpacing + $increment + $labelSpacing + scalar(@powers) * $increment + $padding;
-my $height = $padding * 2 + $titleSpace + scalar(@speeds) * $increment +  2 * ($labelSpacing + $textSize);
+my $width = $borderPadding + $verticalAxisLabelWidth + $labelSpacing + $increment + $labelSpacing + scalar(@powers) * $increment + $borderPadding;
+my $height = $borderPadding * 2 + $titleSpace + scalar(@speeds) * $increment +  2 * ($labelSpacing + $textSize);
 
 
 main();
@@ -37,13 +46,16 @@ sub main
 
     my ($lastX, $lastY, $shapesXml);
     my $settingsXml = generateAllSettings();
+#    $shapesXml .= generateRectangle($startX - $borderPadding, $startY - $borderPadding, $width, $height, 4, $TEXT_INDEX);
+    my $count = scalar(@passCounts); 
+    my $countX = $count >= $maxRowSize ? $maxRowSize : $count;
+    my $countY = ceil($count / $maxRowSize) ;
+    $shapesXml .= generateRectangle($originX, $originY, $countX * ( $width + $borderPadding * 2) , $countY * ($height + $borderPadding * 2), 4, $CUT_INDEX);
 
-    my $text = "1/4&quot; masked acrylic";
-    my $startX = 50;
-    my $startY = 50;
+    my $startX = $originX + $borderPadding * 2;
+    my $startY = $originY + $borderPadding * 2;
     my $x = $startX;
     my $y = $startY;
-    my $maxRowSize = 2;
     my $rowCount = 1;
     for my $passCount(@passCounts)
     {
@@ -51,11 +63,12 @@ sub main
         {
             $rowCount = 0;
             $x = $startX;
-            $y += $height + $padding * 2;
+            $y += $height + $borderPadding * 2;
         }
-        $shapesXml .= generateGrid($x, $y, $passCount, $text);
-        $x += $width + $padding * 2;
+        $shapesXml .= generateGrid($x, $y, $passCount, $title);
+        $x += $width + $borderPadding * 2;
     }
+
 
     my $xml = "$header\n$settingsXml\n$shapesXml\n$footer\n";
     open(my $fh, '>auto-test-pattern.lbrn2') || die "Couldn't open file for write: $!\n";
@@ -69,14 +82,14 @@ sub generateGrid
     my ($startX, $startY, $passCount, $text) = @_;
 
     my $x = $startX;
-    my $y = $startY + $padding;
+    my $y = $startY + $borderPadding;
     my $shapesXml;
     $x += $width / 2;
-    $shapesXml .= generateText("$text - $passCount pass" . ($passCount > 1 ? 'es' : ''), $titleSize, $x - $padding, $y);
+    $shapesXml .= generateText("$text - $passCount pass" . ($passCount > 1 ? 'es' : ''), $titleSize, $x - $borderPadding, $y);
     $y += $titleSpace;
 
     my $firstCircleY = $y;
-    $x = $startX + $padding;
+    $x = $startX + $borderPadding;
     $y += $increment * (scalar(@speeds) - 1) /2;
     $shapesXml .= generateText("Speed (mm/s)", $textSize, $x, $y, 1);
 
@@ -98,7 +111,7 @@ sub generateGrid
         for my $speed(@speeds)
         {
             die "Too powerful: $power\n" if $power > 60;
-            my $scale = int(100 * $power/$max);
+            my $scale = int(100 * $power/$maxSafePower);
             die "Excessive scale ($scale) for speed $speed and power $power\n" if $scale > 100;
 
             my $settingsIndex = $profiles{$speed}{$passCount} || die "Couldn't find settings index for $speed $passCount\n";
@@ -123,7 +136,7 @@ sub generateGrid
     
     $shapesXml .= generateText("Power %", $textSize, $x, $y);
 
-    $shapesXml .= generateRectangle($startX - $padding, $startY - $padding, $width, $height, 4);
+    $shapesXml .= generateRectangle($startX - $borderPadding, $startY - $borderPadding, $width, $height, 4, $LINE_INDEX);
 
     return $shapesXml;
 }
@@ -132,7 +145,7 @@ sub generateGrid
 sub generateAllSettings
 {
     my $settingsXml;
-    my $settingIndex = 1;
+    my $settingIndex = 3;
     for my $passCount(@passCounts)
     {
         for my $speed(@speeds)
@@ -164,11 +177,11 @@ sub generateElipse
 
 sub generateRectangle
 {
-    my ($x, $y, $width, $height, $cornerRadius) = @_;
+    my ($x, $y, $width, $height, $cornerRadius, $index) = @_;
     $x += $width / 2;
     $y += $height / 2;
     my $xml = <<EOT;
-    <Shape Type="Rect" CutIndex="1" W="$width" H="$height" Cr="$cornerRadius">
+    <Shape Type="Rect" CutIndex="$index" W="$width" H="$height" Cr="$cornerRadius">
         <XForm>1 0 0 1 $x $y</XForm>
     </Shape>
 EOT
@@ -182,12 +195,12 @@ sub generateSetting
     my ($name, $type, $speed, $index, $passCount) = @_;
 
     my $min_power = 10;
-    my $max1 = $max;
-    my $max2 = $max;
+    my $max1 = $maxSafePower;
+    my $max2 = $maxSafePower;
 
     my $setting = $settingTemplate;
     $setting =~ s/%%TYPE%%/$type/;      #Cut, Scan, Scan+Cut
-    $setting =~ s/%%INDEX%%/$index/;
+    $setting =~ s/%%INDEX%%/$index/g;
     $setting =~ s/%%NAME%%/$name/;
     $setting =~ s/%%MIN1%%/$min_power/; # main
     $setting =~ s/%%MAX1%%/$max1/;      # main
@@ -229,7 +242,7 @@ sub generateText
 sub init
 {
     $textTemplate = <<'EOT';
-    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="%%TEXT%%" H="%%HEIGHT%%" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
+    <Shape Type="Text" CutIndex="$TEXT_INDEX" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="%%TEXT%%" H="%%HEIGHT%%" LS="0" LnS="-25" Ah="1" Av="1" Weld="1" HasBackupPath="1">
             <XForm>%%M1%% %%M2%% %%M3%% %%M4%% %%X%% %%Y%%</XForm>
     </Shape>
 EOT
@@ -250,7 +263,7 @@ EOT
         <minPower2 Value="%%MIN2%%"/>
         <maxPower2 Value="%%MAX2%%"/>
         <speed Value="%%SPEED%%"/>
-        <priority Value="1"/>
+        <priority Value="%%INDEX%%"/>
         <numPasses Value="%%PASSES%%"/>
         <perfLen Value="0.09906"/>
         <perfSkip Value="0.09906"/>
@@ -261,7 +274,7 @@ EOT
     </CutSetting>
 EOT
 
-    $header = <<'EOT';
+    $header = <<EOT;
 <?xml version="1.0" encoding="UTF-8"?>
 <LightBurnProject AppVersion="1.1.04" FormatVersion="1" MaterialHeight="0" MirrorX="True" MirrorY="True">
     <VariableText>
@@ -286,15 +299,15 @@ EOT
         <Optimize_RemoveOverlaps Value="0"/>
         <Optimize_OptimalEntryPoint Value="1"/>
     </UIPrefs>
-    <CutSetting type="Scan">
-        <index Value="0"/>
+    <CutSetting type="$SCAN">
+        <index Value="$TEXT_INDEX"/>
         <name Value="Text"/>
         <minPower Value="10"/>
         <maxPower Value="10"/>
         <minPower2 Value="10"/>
-        <maxPower2 Value="20"/>
+        <maxPower2 Value="10"/>
         <speed Value="20"/>
-        <priority Value="0"/>
+        <priority Value="$TEXT_INDEX"/>
         <perfLen Value="0.09906"/>
         <perfSkip Value="0.09906"/>
         <dotTime Value="1"/>
@@ -305,15 +318,34 @@ EOT
         <floodFill Value="1"/>
         <interval Value="0.101"/>
     </CutSetting>
-    <CutSetting type="Cut">
-        <index Value="1"/>
-        <name Value="line"/>
+    <CutSetting type="$CUT">
+        <index Value="$LINE_INDEX"/>
+        <name Value="Line"/>
         <minPower Value="10"/>
         <maxPower Value="10"/>
         <minPower2 Value="10"/>
+        <maxPower2 Value="20"/>
+        <speed Value="20"/>
+        <priority Value="$LINE_INDEX"/>
+        <perfLen Value="0.09906"/>
+        <perfSkip Value="0.09906"/>
+        <dotTime Value="1"/>
+        <tabCount Value="1"/>
+        <tabCountMax Value="1"/>
+        <tabSpacing Value="50.04"/>
+        <overscan Value="0"/>
+        <floodFill Value="1"/>
+        <interval Value="0.101"/>
+    </CutSetting>
+    <CutSetting type="$CUT">
+        <index Value="$CUT_INDEX"/>
+        <name Value="Cut"/>
+        <minPower Value="15"/>
+        <maxPower Value="15"/>
+        <minPower2 Value="10"/>
         <maxPower2 Value="10"/>
         <speed Value="10"/>
-        <priority Value="6"/>
+        <priority Value="$CUT_INDEX"/>
         <numPasses Value="1"/>
         <perfLen Value="0.09906"/>
         <perfSkip Value="0.09906"/>
@@ -324,6 +356,7 @@ EOT
         <floodFill Value="1"/>
         <interval Value="0.101"/>
     </CutSetting>
+
 
 EOT
 
