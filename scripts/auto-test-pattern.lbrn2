@@ -68,7 +68,7 @@
         <minPower2 Value="10"/>
         <maxPower2 Value="10"/>
         <speed Value="10"/>
-        <priority Value="2"/>
+        <priority Value="99"/>
         <numPasses Value="1"/>
         <perfLen Value="0.09906"/>
         <perfSkip Value="0.09906"/>
@@ -82,7 +82,7 @@
 
 
 
-    <CutSetting type="Scan+Cut">
+    <CutSetting type="Scan">
         <index Value="4"/>
         <name Value="10mm/s @ 1 pass"/>
         <minPower Value="10"/>
@@ -99,7 +99,7 @@
         <floodFill Value="1"/>
         <interval Value="0.101"/>
     </CutSetting>
-    <CutSetting type="Scan+Cut">
+    <CutSetting type="Scan">
         <index Value="5"/>
         <name Value="40mm/s @ 1 pass"/>
         <minPower Value="10"/>
@@ -116,7 +116,7 @@
         <floodFill Value="1"/>
         <interval Value="0.101"/>
     </CutSetting>
-    <CutSetting type="Scan+Cut">
+    <CutSetting type="Scan">
         <index Value="6"/>
         <name Value="100mm/s @ 1 pass"/>
         <minPower Value="10"/>
@@ -133,7 +133,7 @@
         <floodFill Value="1"/>
         <interval Value="0.101"/>
     </CutSetting>
-    <CutSetting type="Scan+Cut">
+    <CutSetting type="Scan">
         <index Value="7"/>
         <name Value="300mm/s @ 1 pass"/>
         <minPower Value="10"/>
@@ -150,7 +150,7 @@
         <floodFill Value="1"/>
         <interval Value="0.101"/>
     </CutSetting>
-    <CutSetting type="Scan+Cut">
+    <CutSetting type="Scan">
         <index Value="8"/>
         <name Value="800mm/s @ 1 pass"/>
         <minPower Value="10"/>

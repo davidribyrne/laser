@@ -7,7 +7,7 @@ my ($header, $footer, $settings, $settingTemplate, %profiles, $elipseTemplate, $
 my $CUT = 'Cut';
 my $SCAN = 'Scan';
 my $SCAN_CUT = 'Scan+Cut';
-my $type = $SCAN_CUT;
+my $type = $SCAN;
 my $maxSafePower = 50;
 my $TEXT_INDEX = 0;
 my $LINE_INDEX = 1;
@@ -345,7 +345,7 @@ EOT
         <minPower2 Value="10"/>
         <maxPower2 Value="10"/>
         <speed Value="10"/>
-        <priority Value="$CUT_INDEX"/>
+        <priority Value="99"/>
         <numPasses Value="1"/>
         <perfLen Value="0.09906"/>
         <perfSkip Value="0.09906"/>
