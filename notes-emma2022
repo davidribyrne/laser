@@ -1,2 +1,18 @@
+# Image sketch settings
 0 204
 2 .725 .2
+
+
+# Burns
+## 1
+5.5mm (probably more like 6mm)
+text - offset fill - 100 / 10 - 0.5mm interval
+Graphics - line - 100 / 10
+Cut - line - 10/25
+
+## 2
+5.5mm (probably more like 6mm)
+text - offset fill - 100 / 11 - 0.25mm interval
+Graphics - line - 100 / 11
+Cut - line - 10/25
+

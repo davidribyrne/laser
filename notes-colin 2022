@@ -1,0 +1,35 @@
+# Burns
+
+## 1
+
+## 2
+5.5mm (probably more like 6mm)
+text - fill - 100 / 15
+Graphics - fill - 100 / 15
+Cut - line - 10/25
+
+## 3
+5.5mm (probably more like 6mm)
+text - fill - 100 / 15
+Graphics - line - 100 / 20
+Cut - line - 10/25
+
+## 4
+5.5mm (probably more like 6mm)
+text - offset fill - 100 / 15 - 0.1mm interval
+Graphics - line - 100 / 15
+Cut - line - 10/25
+
+## 4
+5.5mm (probably more like 6mm)
+text - offset fill - 100 / 15 - 0.1mm interval
+Graphics - line - 100 / 15
+Cut - line - 10/25
+
+## 4
+5.5mm (probably more like 6mm)
+text - offset fill - 100 / 10 - 0.1mm interval
+Graphics - line - 100 / 10
+Cut - line - 10/25
+
+Probably need to make dice bigger or delete 
