@@ -29,5 +29,5 @@ text - offset fill - 100 / 10 - 0.2mm interval
 Graphics - line - 100 / 9
 Graphics - fill - 100 / 10 - 0.1mm
 Cut - line - 10/25
-Not certain about these settings
+Probably change titan to line/fill and move the person to line @ 9%
 
