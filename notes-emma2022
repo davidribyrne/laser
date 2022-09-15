@@ -16,3 +16,18 @@ text - offset fill - 100 / 11 - 0.25mm interval
 Graphics - line - 100 / 11
 Cut - line - 10/25
 
+## 3
+3.6mm
+text - offset fill - 100 / 10 - 0.25mm interval
+Graphics - line - 100 / 10
+Cut - line - 10/25
+Not certain about these settings
+
+## 4
+3.6mm
+text - offset fill - 100 / 10 - 0.2mm interval
+Graphics - line - 100 / 9
+Graphics - fill - 100 / 10 - 0.1mm
+Cut - line - 10/25
+Not certain about these settings
+

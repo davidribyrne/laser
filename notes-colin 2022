@@ -1,35 +1,91 @@
+# Inkscape
+## Trace bitmap - Centerline tracing defaults
+Filter iterations: 4
+Error threshold: 2.0
+Speckles - 2 (enabled)
+Smooth - 1.00 (enabled)
+Optimize - 0.200 (enabled)
+
 # Burns
 
 ## 1
 
 ## 2
 5.5mm (probably more like 6mm)
-text - fill - 100 / 15
-Graphics - fill - 100 / 15
+text - fill - 100/15
+Graphics - fill - 100/15
 Cut - line - 10/25
 
 ## 3
 5.5mm (probably more like 6mm)
-text - fill - 100 / 15
-Graphics - line - 100 / 20
+text - fill - 100/15
+Graphics - line - 100/20
 Cut - line - 10/25
 
 ## 4
 5.5mm (probably more like 6mm)
-text - offset fill - 100 / 15 - 0.1mm interval
-Graphics - line - 100 / 15
+text - offset fill - 100/15 - 0.1mm interval
+Graphics - line - 100/15
 Cut - line - 10/25
 
 ## 4
 5.5mm (probably more like 6mm)
-text - offset fill - 100 / 15 - 0.1mm interval
-Graphics - line - 100 / 15
+text - offset fill - 100/15 - 0.1mm interval
+Graphics - line - 100/15
 Cut - line - 10/25
 
-## 4
+## 5
 5.5mm (probably more like 6mm)
-text - offset fill - 100 / 10 - 0.1mm interval
-Graphics - line - 100 / 10
+text - offset fill - 100/10 - 0.1mm interval
+Graphics - line - 100/10
 Cut - line - 10/25
 
 Probably need to make dice bigger or delete 
+
+## 6
+3.6mm
+Text - offset fill - 100/10 - 0.1mm interval
+Graphics - line - 100/10 
+Cut - line - 10/25
+
+## 7
+3.6mm
+Text - offset fill - 100/10 - 0.2mm interval
+Graphics - line - 150/10 
+Dice - offset fill - 100/10 - 0.2mm interval
+Cut - line - 10/25
+
+## 8
+Graphic from Owlbear8-d
+3.6mm
+Text - line - 100/10
+Text - fill - 100/10 - 0.1mm interval
+Graphics - line - 150/10
+Dice - offset fill - 100/10 - 0.2mm interval
+Cut - line - 10/25
+
+## 9
+3.6mm
+Text - line - 100/10
+Text - fill - 100/10 - 0.05mm interval
+Dice - fill - 100/10 - 0.05mm interval
+Cut - line - 10/25
+
+## 10
+3.6mm
+Text - line - 100/10
+Text - fill - 200/10 - 0.05mm interval
+Dice - fill - 100/10 - 0.05mm interval - cross-hatch
+Cut - line - 10/25
+
+## 11
+SVG
+3.6mm
+Text - line - 100/12 x 2
+Text - fill - 200/10 - 0.05mm interval
+Dice - fill - 100/12 - 0.05mm interval - cross-hatch
+Graphics - line - 150/10
+Cut - line - 10/25
+
+Make eye filled for highlight
+Dice turned out great
