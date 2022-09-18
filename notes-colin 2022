@@ -6,6 +6,16 @@ Speckles - 2 (enabled)
 Smooth - 1.00 (enabled)
 Optimize - 0.200 (enabled)
 
+# Coreldraw 
+66
+25
+0
+
+
+# Images
+## 14
+Blurs - divide, vivid, addition, screen
+
 # Burns
 
 ## 1
@@ -89,3 +99,15 @@ Cut - line - 10/25
 
 Make eye filled for highlight
 Dice turned out great
+
+
+## 12
+SVG
+3.6mm
+Text - line - 100/12 x 2
+Text - fill - 200/10 - 0.05mm interval
+Dice - fill - 100/12 - 0.05mm interval - cross-hatch
+Graphics - line - 150/10
+Eye - fill - 100/15
+Cut - line - 10/25
+
