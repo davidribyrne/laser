@@ -111,3 +111,14 @@ Graphics - line - 150/10
 Eye - fill - 100/15
 Cut - line - 10/25
 
+
+## 13
+SVG
+3.6mm
+Text - line - 100/10 x 2
+Text - fill - 200/10 - 0.05mm interval
+Dice - fill - 100/13 - 0.05mm interval - cross-hatch
+Graphics - line - 150/10
+Eye - fill - 100/15
+Cut - line - 10/25
+
