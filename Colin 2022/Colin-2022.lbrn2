@@ -60,26 +60,18 @@
         <tabCount Value="1"/>
         <tabCountMax Value="1"/>
     </CutSetting>
-    <CutSetting type="Cut">
+    <CutSetting type="Scan">
         <index Value="5"/>
         <name Value="Text"/>
-        <minPower Value="10"/>
-        <maxPower Value="10"/>
+        <minPower Value="15"/>
+        <maxPower Value="15"/>
         <maxPower2 Value="20"/>
         <speed Value="100"/>
-        <numPasses Value="2"/>
         <dotTime Value="1"/>
         <priority Value="2"/>
+        <doOutput Value="0"/>
         <tabCount Value="1"/>
         <tabCountMax Value="1"/>
-        <SubLayer type="Scan" index="1">
-            <minPower Value="10"/>
-            <maxPower Value="10"/>
-            <maxPower2 Value="20"/>
-            <speed Value="200"/>
-            <dotTime Value="1"/>
-            <interval Value="0.05"/>
-        </SubLayer>
     </CutSetting>
     <CutSetting type="Scan">
         <index Value="14"/>

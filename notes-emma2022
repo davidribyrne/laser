@@ -31,3 +31,30 @@ Graphics - fill - 100 / 10 - 0.1mm
 Cut - line - 10/25
 Probably change titan to line/fill and move the person to line @ 9%
 
+
+## 5
+5.5mm (probably more like 6mm)
+Text - fill - 100/15 - 0.1mm interval
+
+3.6mm
+Graphics - line - 150/10
+Cut - line - 10/25
+
+
+## 6
+3.6mm
+Graphics - fill - 100/13 - 0.05mm interval - cross-hatch
+Cut - line - 10/25
+
+
+## 7 
+5.5mm (probably more like 6mm)
+Text - fill - 100/15 - 0.1mm interval
+
+3.6mm
+Graphics - fill - 100/13 - 0.05mm interval - cross-hatch
+Cut - line - 2/20
+
+Experiments showed that cross-hatch didn't help much
+
+## 8
