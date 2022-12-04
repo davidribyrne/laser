@@ -1,0 +1,30 @@
+Program settings
+Graphics view -> Grid
+Solid grid lines
+
+
+Document settings
+Dimension
+text height - 2
+extension line extension- 1
+extension line offset - 0.625  
+dimension line gap - 1
+arrow size - 2
+dimension line increment - 2
+size scale factor - 1
+
+General -> Grid
+    auto
+    auto
+
+
+
+
+
+
+201 mm tall total
+20mm below platform
+
+170mm between platforms
+20mm min bridge support
+25mm min curve support
