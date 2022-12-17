@@ -43,3 +43,13 @@ http://pc:4000/BasedBox?FingerJoint_angle=90.0&FingerJoint_style=rectangular&Fin
 box for external walls
 http://pc:4000/ABox?FingerJoint_angle=90.0&FingerJoint_style=rectangular&FingerJoint_surroundingspaces=2.0&FingerJoint_edge_width=1.0&FingerJoint_extra_length=0.0&FingerJoint_finger=2.0&FingerJoint_play=0.0&FingerJoint_space=2.0&FingerJoint_width=1.0&x=125&y=125&h=10&outside=0&bottom_edge=F&thickness=3.0&format=svg&tabs=0.0&debug=0&labels=0&labels=1&reference=100&inner_corners=loop&burn=0.1&render=0
 
+
+
+
+packing braces
+side by side  C C- 206.562 x 183.236 = 37,698
+tight 69 - 146.914 x 253.820 = 37,338
+loose 69 - 167.648 x 218.685 = 36,662, 6.5 x 8.5
+
+
+
