@@ -1,4 +1,4 @@
-1/2 ", new 2" lens
+# 1/2 ", new 2" lens
 
 To cut through, low speed is more important than power
 
@@ -16,4 +16,78 @@ Cuts through
 
 
 Wood underlay was charing. Paper coating was catching fire when sheet elevated without underlay.
+
+2mm/s @50%, 16mm distance works well
+10mm distance not straight
+
+2mm/s @40%, 16mm distance works well
+kerf - 10mm: 9.5-9.6
+
+
+
+
+# new 1/4" old lens
+used 2mm/s @ 20% for nightlights
+
+15x15 square external
+7x7 square internal
+15x15 circle external
+7x7 circle internal
+
+Following all 3mm/s, 30%, 3.7mm
+
+## 1
+0 kerf
+Square internal: 7.25
+Square external: 14.61
+Circle is similar, but less consistent
+
+## 2
+Internal Kerf: -.25
+External Kerf: 0
+Internal: 6.75
+External: 14.68
+
+## 2
+Internal Kerf: -.125
+External Kerf: .2
+Internal: 7.01
+External: 15.10
+
+## 2
+Internal Kerf: -.125
+External Kerf: .125
+Internal: 
+External: 15.01
+
+# New 1/4
+5.4mm thick
+
+5mm/s, 30%, 3.7 
+cuts through
+
+10mm/s, 30%, 3.7 
+almost cut through, could easily push out. 
+May have just been a slight re-fuse
+
+10mm/s, 50%, 3.7 
+cut through, but a more noticeable jitter than 5mm/s
+Not terrible looking, fine for prototypes
+
+
+15mm/s, 50%, 3.7 
+Didn't come close to getting through. A little perforation on the bottom paper
+
+15mm/s, 70%, 3.7 
+Didn't get through through. More of a cut on the bottom paper than 50%
+
+15mm/s, 80%, 3.7 
+almost cut through, could easily push out. 
+
+13mm/s, 80%, 3.7 
+cut through
+
+
+
+
 
