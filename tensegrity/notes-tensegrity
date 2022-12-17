@@ -30,18 +30,7 @@ General -> Grid
 25mm min curve support
 
 
-
-box for internal base
-http://pc:4000/BasedBox?FingerJoint_angle=90.0&FingerJoint_style=rectangular&FingerJoint_surroundingspaces=1.0&FingerJoint_edge_width=1.0&FingerJoint_extra_length=0.0&FingerJoint_finger=2.0&FingerJoint_play=0.0&FingerJoint_space=2&FingerJoint_width=1.0&x=50&y=50&h=30&outside=0&thickness=5.5&format=lbrn2&tabs=0.0&debug=0&labels=0&labels=1&reference=100&inner_corners=loop&burn=0.1&render=0
-
-box for internal walls
-http://pc:4000/ABox?FingerJoint_angle=90.0&FingerJoint_style=rectangular&FingerJoint_surroundingspaces=2.0&FingerJoint_edge_width=1.0&FingerJoint_extra_length=0.0&FingerJoint_finger=2.0&FingerJoint_play=0.0&FingerJoint_space=2.0&FingerJoint_width=1.0&x=50&y=50&h=10&outside=0&bottom_edge=F&thickness=3.0&format=lbrn2&tabs=0.0&debug=0&labels=0&labels=1&reference=100&inner_corners=loop&burn=0.1&render=0
-
 box for external base
-http://pc:4000/BasedBox?FingerJoint_angle=90.0&FingerJoint_style=rectangular&FingerJoint_surroundingspaces=1&FingerJoint_edge_width=0&FingerJoint_extra_length=0.0&FingerJoint_finger=2.0&FingerJoint_play=0.0&FingerJoint_space=2&FingerJoint_width=1.0&x=125&y=125&h=30&outside=0&thickness=5.5&format=svg&tabs=0.0&debug=0&labels=0&labels=1&reference=100&inner_corners=loop&burn=0.1&render=0
-
-box for external walls
-http://pc:4000/ABox?FingerJoint_angle=90.0&FingerJoint_style=rectangular&FingerJoint_surroundingspaces=2.0&FingerJoint_edge_width=1.0&FingerJoint_extra_length=0.0&FingerJoint_finger=2.0&FingerJoint_play=0.0&FingerJoint_space=2.0&FingerJoint_width=1.0&x=125&y=125&h=10&outside=0&bottom_edge=F&thickness=3.0&format=svg&tabs=0.0&debug=0&labels=0&labels=1&reference=100&inner_corners=loop&burn=0.1&render=0
 
 
 
@@ -53,3 +42,4 @@ loose 69 - 167.648 x 218.685 = 36,662, 6.5 x 8.5
 
 
 
+http://pc:4000/BasedBox?FingerJoint_angle=90.0&FingerJoint_style=rectangular&FingerJoint_surroundingspaces=1&FingerJoint_edge_width=0&FingerJoint_extra_length=0.0&FingerJoint_finger=3&FingerJoint_play=0.0&FingerJoint_space=3&FingerJoint_width=1.0&x=125&y=125&h=25&outside=0&outside=1&thickness=5.4&format=svg&tabs=0.0&debug=0&labels=0&reference=100&inner_corners=loop&burn=0&render=0
