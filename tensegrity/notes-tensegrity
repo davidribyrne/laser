@@ -54,3 +54,23 @@ http://pc:4000/BasedBox?FingerJoint_angle=90.0&FingerJoint_style=rectangular&Fin
 531 50
 666 50
 
+
+
+
+# Cuts
+10mm/s, 50%, 3.7mm 
+wasn't enough to get all the way through 2mm holes. I could punch them out, but a little slower or more power would be better.
+3.5 mm holes seemed to be okay
+
+
+A kerf of .125 was just slightly too tight for the anchor. I was able to file it down to get it to fit. The same kerf was too loose for the box
+
+The sheet thickness varies from 5.4-5.8mm
+
+Changed inner slot kerf from -.125 to -.1 to make the slot wider
+This was perfect for a 5.4mm anchor
+
+Changed outer cut kerf from 1.25 to 1.5
+about right for the outside. The wall-to-wall joints were a little loose, but the wall-to-base joints were perfect
+
+
