@@ -79,3 +79,19 @@ loose wall joints are probably okay because they will be held in place by the te
 # To do
 etch line between holes
 make pilot hole for screws
+
+
+# notch & pilot hole
+15mm/s, 30% was about 1/8 deep
+15mm/s, 10% barely got through the paper
+15mm/s, 20% was a little too deep and 1mm wide made a v shaped groove
+20mm/s, 20% at 2mm wide was still a little deep and sharp
+10mm/s, 10% at 2mm wide was too shallow
+5mm/s, 10% at 2mm wide was too shallow
+Insanely fickle
+10mm/s, 17%, 1mm seems usable
+
+# Complete set #1
+Some of the outer cuts weren't deep enough with 10mm/s, 50%; increase to 60%
+20mm/s, 20% too deep
+mounts for struts too narrow, increse kerf from -0.1 to 0
