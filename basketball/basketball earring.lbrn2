@@ -59,10 +59,10 @@
         <tabCount Value="1"/>
         <tabCountMax Value="1"/>
     </CutSetting>
-    <Shape Type="Group">
+    <Shape Type="Group" CutIndex="0">
         <XForm>1 0 0 1 0 0</XForm>
         <Children>
-            <Shape Type="Group">
+            <Shape Type="Group" CutIndex="0">
                 <XForm>0.3697052 0 0 0.3697052 239.14539 203.28894</XForm>
                 <Children>
                     <Shape Type="Path" CutIndex="5" VertID="0">
